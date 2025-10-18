@@ -1,0 +1,1182 @@
+[
+  {
+    "id": "S-P6-DIV-001-MCQ",
+    "subject": "Science",
+    "topic": "Diversity",
+    "skill_tag": "SCI.DIV.CLASSIFY_PLANTS_ANIMALS",
+    "type": "mcq",
+    "text": "Which group correctly shows only vertebrates?",
+    "options": [
+      "frog, lizard, eagle",
+      "snail, crab, fish",
+      "earthworm, butterfly, bat",
+      "jellyfish, octopus, seahorse"
+    ],
+    "answer": "frog, lizard, eagle",
+    "solution": "Frogs, lizards and eagles have backbones."
+  },
+  {
+    "id": "S-P6-DIV-002-MCQ",
+    "subject": "Science",
+    "topic": "Diversity",
+    "skill_tag": "SCI.DIV.CLASSIFY_PLANTS_ANIMALS",
+    "type": "mcq",
+    "text": "Which plant structure mainly carries water from roots to leaves?",
+    "options": [
+      "phloem",
+      "xylem",
+      "stomata",
+      "cuticle"
+    ],
+    "answer": "xylem",
+    "solution": "Xylem transports water and mineral salts upward."
+  },
+  {
+    "id": "S-P6-DIV-003-OPEN",
+    "subject": "Science",
+    "topic": "Diversity",
+    "skill_tag": "SCI.ENV.ADAP",
+    "type": "open",
+    "text": "Cactus plants have thick, fleshy stems. Name the main function of this adaptation.",
+    "answer": "water storage|store water",
+    "solution": "Succulent stems store water in dry habitats."
+  },
+  {
+    "id": "S-P6-DIV-004-MCQ",
+    "subject": "Science",
+    "topic": "Diversity",
+    "skill_tag": "SCI.DIV.CLASSIFY_PLANTS_ANIMALS",
+    "type": "mcq",
+    "text": "Which statement about mammals is true?",
+    "options": [
+      "All lay eggs",
+      "They have moist skin",
+      "They produce milk for their young",
+      "They breathe through gills"
+    ],
+    "answer": "They produce milk for their young",
+    "solution": "Mammals feed their young with milk."
+  },
+  {
+    "id": "S-P6-DIV-005-MCQ",
+    "subject": "Science",
+    "topic": "Diversity",
+    "skill_tag": "SCI.DIV.CHAR_LIVING",
+    "type": "mcq",
+    "text": "Which is a characteristic of bacteria?",
+    "options": [
+      "have backbones",
+      "microscopic single-celled",
+      "make their own food using chlorophyll always",
+      "reproduce only by seeds"
+    ],
+    "answer": "microscopic single-celled",
+    "solution": "Bacteria are unicellular and microscopic."
+  },
+  {
+    "id": "S-P6-DIV-006-OPEN",
+    "subject": "Science",
+    "topic": "Diversity",
+    "skill_tag": "SCI.WATER.STATES",
+    "type": "open",
+    "text": "State the three common states of matter.",
+    "answer": "solid|liquid|gas|solid, liquid, gas",
+    "solution": "Matter commonly exists as solid, liquid and gas."
+  },
+  {
+    "id": "S-P6-DIV-007-MCQ",
+    "subject": "Science",
+    "topic": "Diversity",
+    "skill_tag": "SCI.WATER.EVAP_COND",
+    "type": "mcq",
+    "text": "Which process changes water vapour to liquid water?",
+    "options": [
+      "evaporation",
+      "condensation",
+      "freezing",
+      "melting"
+    ],
+    "answer": "condensation",
+    "solution": "Cooling water vapour causes condensation."
+  },
+  {
+    "id": "S-P6-DIV-008-MCQ",
+    "subject": "Science",
+    "topic": "Diversity",
+    "skill_tag": "SCI.ENV.ADAP",
+    "type": "mcq",
+    "text": "A penguin has a thick layer of fat under its skin. This helps it to __.",
+    "options": [
+      "breathe underwater",
+      "float on water",
+      "keep warm",
+      "fly long distances"
+    ],
+    "answer": "keep warm",
+    "solution": "Fat acts as insulation in cold environments."
+  },
+  {
+    "id": "S-P6-DIV-009-OPEN",
+    "subject": "Science",
+    "topic": "Diversity",
+    "skill_tag": "SCI.DIV.CLASSIFY_PLANTS_ANIMALS",
+    "type": "open",
+    "text": "Name one non-flowering plant commonly found in gardens.",
+    "answer": "fern|moss",
+    "solution": "Ferns and mosses are non-flowering plants."
+  },
+  {
+    "id": "S-P6-DIV-010-MCQ",
+    "subject": "Science",
+    "topic": "Diversity",
+    "skill_tag": "SCI.WATER.EVAP_COND",
+    "type": "mcq",
+    "text": "Which statement about gases is correct?",
+    "options": [
+      "fixed shape and fixed volume",
+      "fixed shape but not fixed volume",
+      "no fixed shape and no fixed volume",
+      "fixed volume but no fixed shape"
+    ],
+    "answer": "no fixed shape and no fixed volume",
+    "solution": "Gases expand to fill their container."
+  },
+  {
+    "id": "S-P6-CYC-001-MCQ",
+    "subject": "Science",
+    "topic": "Cycles",
+    "skill_tag": "SCI.WATER.WATER_CYCLE",
+    "type": "mcq",
+    "text": "Which process in the water cycle requires heat from the Sun?",
+    "options": [
+      "condensation",
+      "precipitation",
+      "evaporation",
+      "collection"
+    ],
+    "answer": "evaporation",
+    "solution": "Heat causes water to evaporate."
+  },
+  {
+    "id": "S-P6-CYC-002-OPEN",
+    "subject": "Science",
+    "topic": "Cycles",
+    "skill_tag": "SCI.WATER.WATER_CYCLE",
+    "type": "open",
+    "text": "Water droplets forming on the outside of a cold drink can is due to __.",
+    "answer": "condensation",
+    "solution": "Water vapour in air condenses on the cold surface."
+  },
+  {
+    "id": "S-P6-CYC-003-MCQ",
+    "subject": "Science",
+    "topic": "Cycles",
+    "skill_tag": "SCI.LIFE.PLANT_LIFECYCLE",
+    "type": "mcq",
+    "text": "Which shows a complete life cycle with metamorphosis?",
+    "options": [
+      "frog",
+      "chicken",
+      "human",
+      "fish"
+    ],
+    "answer": "frog",
+    "solution": "Frog has egg → tadpole → adult (metamorphosis)."
+  },
+  {
+    "id": "S-P6-CYC-004-MCQ",
+    "subject": "Science",
+    "topic": "Cycles",
+    "skill_tag": "SCI.LIFE.PLANT_LIFECYCLE",
+    "type": "mcq",
+    "text": "Which stage of a butterfly eats the most and grows rapidly?",
+    "options": [
+      "egg",
+      "larva (caterpillar)",
+      "pupa (chrysalis)",
+      "adult"
+    ],
+    "answer": "larva (caterpillar)",
+    "solution": "Feeding and growth occur mainly at larva stage."
+  },
+  {
+    "id": "S-P6-CYC-005-OPEN",
+    "subject": "Science",
+    "topic": "Cycles",
+    "skill_tag": "SCI.WATER.STATES",
+    "type": "open",
+    "text": "Name the process when a solid changes directly into a gas.",
+    "answer": "sublimation",
+    "solution": "E.g., dry ice sublimates."
+  },
+  {
+    "id": "S-P6-CYC-006-MCQ",
+    "subject": "Science",
+    "topic": "Cycles",
+    "skill_tag": "SCI.WATER.WATER_CYCLE",
+    "type": "mcq",
+    "text": "Clouds form mainly because of __.",
+    "options": [
+      "evaporation of rain",
+      "condensation of water vapour",
+      "freezing of rain",
+      "melting of ice"
+    ],
+    "answer": "condensation of water vapour",
+    "solution": "Water vapour condenses into tiny droplets."
+  },
+  {
+    "id": "S-P6-CYC-007-MCQ",
+    "subject": "Science",
+    "topic": "Cycles",
+    "skill_tag": "SCI.LIFE.PLANT_LIFECYCLE",
+    "type": "mcq",
+    "text": "Which sequence shows human development?",
+    "options": [
+      "infant → adult → teenager → elderly",
+      "infant → teenager → adult → elderly",
+      "infant → child → teenager → adult",
+      "teenager → infant → child → adult"
+    ],
+    "answer": "infant → child → teenager → adult",
+    "solution": "Correct developmental order."
+  },
+  {
+    "id": "S-P6-CYC-008-OPEN",
+    "subject": "Science",
+    "topic": "Cycles",
+    "skill_tag": "SCI.WATER.WATER_CYCLE",
+    "type": "open",
+    "text": "State one way to speed up the drying of wet clothes apart from sunlight.",
+    "answer": "increase wind|use a fan|increase airflow",
+    "solution": "Greater airflow increases evaporation."
+  },
+  {
+    "id": "S-P6-CYC-009-MCQ",
+    "subject": "Science",
+    "topic": "Cycles",
+    "skill_tag": "SCI.WATER.STATES",
+    "type": "mcq",
+    "text": "Which is a reversible change?",
+    "options": [
+      "burning paper",
+      "rusting iron",
+      "melting ice",
+      "cooking an egg"
+    ],
+    "answer": "melting ice",
+    "solution": "Freezing can reverse melting."
+  },
+  {
+    "id": "S-P6-CYC-010-OPEN",
+    "subject": "Science",
+    "topic": "Cycles",
+    "skill_tag": "SCI.LIFE.PLANT_LIFECYCLE",
+    "type": "open",
+    "text": "Name the process by which plants make food.",
+    "answer": "photosynthesis",
+    "solution": "Chlorophyll + sunlight + CO₂ + water → glucose + oxygen."
+  },
+  {
+    "id": "S-P6-SYS-001-MCQ",
+    "subject": "Science",
+    "topic": "Systems",
+    "skill_tag": "SCI.HUMAN.DIG.PROCESS",
+    "type": "mcq",
+    "text": "Which organ mainly absorbs water from undigested food?",
+    "options": [
+      "stomach",
+      "small intestine",
+      "large intestine",
+      "liver"
+    ],
+    "answer": "large intestine",
+    "solution": "Large intestine absorbs water and minerals."
+  },
+  {
+    "id": "S-P6-SYS-002-MCQ",
+    "subject": "Science",
+    "topic": "Systems",
+    "skill_tag": "SCI.HUMAN.RESP.BASICS",
+    "type": "mcq",
+    "text": "Which structure contracts to help us breathe in?",
+    "options": [
+      "diaphragm",
+      "heart",
+      "liver",
+      "stomach"
+    ],
+    "answer": "diaphragm",
+    "solution": "Diaphragm contracts and moves downwards during inhalation."
+  },
+  {
+    "id": "S-P6-SYS-003-OPEN",
+    "subject": "Science",
+    "topic": "Systems",
+    "skill_tag": "SCI.HUMAN.CIRC.BASICS",
+    "type": "open",
+    "text": "Which blood vessel carries blood away from the heart?",
+    "answer": "artery|arteries",
+    "solution": "Arteries carry blood away; veins carry blood to the heart."
+  },
+  {
+    "id": "S-P6-SYS-004-MCQ",
+    "subject": "Science",
+    "topic": "Systems",
+    "skill_tag": "SCI.HUMAN.DIG.PROCESS",
+    "type": "mcq",
+    "text": "Most digestion and absorption of nutrients occur in the __.",
+    "options": [
+      "mouth",
+      "stomach",
+      "small intestine",
+      "large intestine"
+    ],
+    "answer": "small intestine",
+    "solution": "Small intestine is the main site of digestion and absorption."
+  },
+  {
+    "id": "S-P6-SYS-005-OPEN",
+    "subject": "Science",
+    "topic": "Systems",
+    "skill_tag": "SCI.HUMAN.RESP.BASICS",
+    "type": "open",
+    "text": "Name the gas taken in during respiration.",
+    "answer": "oxygen|o₂",
+    "solution": "Oxygen is needed for energy release."
+  },
+  {
+    "id": "S-P6-SYS-006-MCQ",
+    "subject": "Science",
+    "topic": "Systems",
+    "skill_tag": "SCI.PLANT.PARTS",
+    "type": "mcq",
+    "text": "Which part of a leaf allows gases to enter and leave the plant?",
+    "options": [
+      "veins",
+      "cuticle",
+      "stomata",
+      "midrib"
+    ],
+    "answer": "stomata",
+    "solution": "Stomata are pores for gas exchange."
+  },
+  {
+    "id": "S-P6-SYS-007-MCQ",
+    "subject": "Science",
+    "topic": "Systems",
+    "skill_tag": "SCI.HUMAN.CIRC.BASICS",
+    "type": "mcq",
+    "text": "Which component of blood carries oxygen?",
+    "options": [
+      "plasma",
+      "red blood cells",
+      "white blood cells",
+      "platelets"
+    ],
+    "answer": "red blood cells",
+    "solution": "Haemoglobin in RBCs carries oxygen."
+  },
+  {
+    "id": "S-P6-SYS-008-OPEN",
+    "subject": "Science",
+    "topic": "Systems",
+    "skill_tag": "SCI.HUMAN.DIG.PROCESS",
+    "type": "open",
+    "text": "State one function of saliva in digestion.",
+    "answer": "breaks down starch|digests starch|moistens food",
+    "solution": "Salivary amylase digests starch; saliva moistens food."
+  },
+  {
+    "id": "S-P6-SYS-009-MCQ",
+    "subject": "Science",
+    "topic": "Systems",
+    "skill_tag": "SCI.HUMAN.RESP.BASICS",
+    "type": "mcq",
+    "text": "Air sacs in the lungs are called __.",
+    "options": [
+      "alveoli",
+      "villi",
+      "bronchi",
+      "capillaries"
+    ],
+    "answer": "alveoli",
+    "solution": "Alveoli are the site of gas exchange."
+  },
+  {
+    "id": "S-P6-SYS-010-OPEN",
+    "subject": "Science",
+    "topic": "Systems",
+    "skill_tag": "SCI.HUMAN.CIRC.BASICS",
+    "type": "open",
+    "text": "Name the organ that pumps blood around the body.",
+    "answer": "heart",
+    "solution": "The heart pumps blood through blood vessels."
+  },
+  {
+    "id": "S-P6-INTF-001-MCQ",
+    "subject": "Science",
+    "topic": "Interactions (Forces)",
+    "skill_tag": "SCI.FORCE.SPRING",
+    "type": "mcq",
+    "text": "Which force opposes motion between two surfaces in contact?",
+    "options": [
+      "gravity",
+      "friction",
+      "magnetic force",
+      "spring force"
+    ],
+    "answer": "friction",
+    "solution": "Friction resists motion."
+  },
+  {
+    "id": "S-P6-INTF-002-MCQ",
+    "subject": "Science",
+    "topic": "Interactions (Forces)",
+    "skill_tag": "SCI.FORCE.GRAVITY",
+    "type": "mcq",
+    "text": "An object falls to the ground when dropped because of __.",
+    "options": [
+      "air resistance",
+      "electric force",
+      "gravity",
+      "friction"
+    ],
+    "answer": "gravity",
+    "solution": "Gravity pulls objects toward Earth."
+  },
+  {
+    "id": "S-P6-INTF-003-OPEN",
+    "subject": "Science",
+    "topic": "Interactions (Forces)",
+    "skill_tag": "SCI.MAG.POLES",
+    "type": "open",
+    "text": "Name one material that a magnet can attract.",
+    "answer": "iron|steel|nickel|cobalt",
+    "solution": "Magnets attract magnetic materials such as iron and steel."
+  },
+  {
+    "id": "S-P6-INTF-004-MCQ",
+    "subject": "Science",
+    "topic": "Interactions (Forces)",
+    "skill_tag": "SCI.FORCE.SPRING",
+    "type": "mcq",
+    "text": "To reduce friction between moving parts, we can __.",
+    "options": [
+      "use rough surfaces",
+      "add oil or grease",
+      "increase weight",
+      "use sandpaper"
+    ],
+    "answer": "add oil or grease",
+    "solution": "Lubricants reduce friction."
+  },
+  {
+    "id": "S-P6-INTF-005-MCQ",
+    "subject": "Science",
+    "topic": "Interactions (Forces)",
+    "skill_tag": "SCI.MAT.PROPERTIES",
+    "type": "mcq",
+    "text": "Which shows a pair of unlike magnetic poles?",
+    "options": [
+      "N-N",
+      "S-S",
+      "N-S",
+      "N-N-N"
+    ],
+    "answer": "N-S",
+    "solution": "Unlike poles attract (N to S)."
+  },
+  {
+    "id": "S-P6-INTF-006-OPEN",
+    "subject": "Science",
+    "topic": "Interactions (Forces)",
+    "skill_tag": "SCI.FORCE.GRAVITY",
+    "type": "open",
+    "text": "Name the measuring instrument used to measure force.",
+    "answer": "spring balance|force meter",
+    "solution": "A spring balance measures force in newtons."
+  },
+  {
+    "id": "S-P6-INTF-007-TABLE",
+    "subject": "Science",
+    "topic": "Interactions (Forces)",
+    "skill_tag": "SCI.ENV.POP_COMMUNITY",
+    "type": "mcq",
+    "text": "A student measured the force needed to pull a block over different surfaces.",
+    "table": {
+      "headers": [
+        "Surface",
+        "Force (N)"
+      ],
+      "rows": [
+        [
+          "glass",
+          "2"
+        ],
+        [
+          "wood",
+          "4"
+        ],
+        [
+          "carpet",
+          "7"
+        ],
+        [
+          "sandpaper",
+          "9"
+        ]
+      ]
+    },
+    "options": [
+      "glass",
+      "wood",
+      "carpet",
+      "sandpaper"
+    ],
+    "answer": "sandpaper",
+    "solution": "Largest force needed → greatest friction."
+  },
+  {
+    "id": "S-P6-INTF-008-OPEN",
+    "subject": "Science",
+    "topic": "Interactions (Forces)",
+    "skill_tag": "SCI.INT.SIMPLEMACH",
+    "type": "open",
+    "text": "Name one simple machine that helps lift heavy loads more easily.",
+    "answer": "lever|pulley|inclined plane|wheel and axle|screw",
+    "solution": "Simple machines provide mechanical advantage."
+  },
+  {
+    "id": "S-P6-INTF-009-MCQ",
+    "subject": "Science",
+    "topic": "Interactions (Forces)",
+    "skill_tag": "SCI.FORCE.SPRING",
+    "type": "mcq",
+    "text": "A sharp knife cuts better than a blunt one mainly because it has __.",
+    "options": [
+      "greater area",
+      "smaller area",
+      "less force",
+      "more mass"
+    ],
+    "answer": "smaller area",
+    "solution": "Smaller area → higher pressure for same force."
+  },
+  {
+    "id": "S-P6-INTF-010-OPEN",
+    "subject": "Science",
+    "topic": "Interactions (Forces)",
+    "skill_tag": "SCI.MAG.POLES",
+    "type": "open",
+    "text": "State the effect on two magnets if their like poles are brought close together.",
+    "answer": "repel|they repel",
+    "solution": "Like poles repel."
+  },
+  {
+    "id": "S-P6-INTL-001-MCQ",
+    "subject": "Science",
+    "topic": "Interactions (Light/Heat/Sound)",
+    "skill_tag": "SCI.LIGHT.SOURCES",
+    "type": "mcq",
+    "text": "Shadows are formed because light __.",
+    "options": [
+      "bends around objects",
+      "travels in straight lines",
+      "slows down in air",
+      "is a source of heat"
+    ],
+    "answer": "travels in straight lines",
+    "solution": "Straight-line travel causes regions with no light (shadows)."
+  },
+  {
+    "id": "S-P6-INTL-002-MCQ",
+    "subject": "Science",
+    "topic": "Interactions (Light/Heat/Sound)",
+    "skill_tag": "SCI.LIGHT.SOURCES",
+    "type": "mcq",
+    "text": "Which surface reflects most light?",
+    "options": [
+      "black cloth",
+      "white wall",
+      "matte paper",
+      "rough stone"
+    ],
+    "answer": "white wall",
+    "solution": "White surfaces reflect more light than dark surfaces."
+  },
+  {
+    "id": "S-P6-INTL-003-OPEN",
+    "subject": "Science",
+    "topic": "Interactions (Light/Heat/Sound)",
+    "skill_tag": "SCI.MAT.PROPERTIES",
+    "type": "open",
+    "text": "Metals are good conductors of heat. Name one use based on this property.",
+    "answer": "cooking pots|kettle base|pan base|saucepan|heat sink",
+    "solution": "Conduct heat quickly to food or away from devices."
+  },
+  {
+    "id": "S-P6-INTL-004-MCQ",
+    "subject": "Science",
+    "topic": "Interactions (Light/Heat/Sound)",
+    "skill_tag": "SCI.MAT.PROPERTIES",
+    "type": "mcq",
+    "text": "Which material is the best thermal insulator?",
+    "options": [
+      "copper",
+      "iron",
+      "wood",
+      "aluminium"
+    ],
+    "answer": "wood",
+    "solution": "Wood is a poor conductor; hence a good insulator."
+  },
+  {
+    "id": "S-P6-INTL-005-MCQ",
+    "subject": "Science",
+    "topic": "Interactions (Light/Heat/Sound)",
+    "skill_tag": "SCI.INT.SOUND",
+    "type": "mcq",
+    "text": "Sound is produced when objects __.",
+    "options": [
+      "vibrate",
+      "melt",
+      "expand",
+      "reflect"
+    ],
+    "answer": "vibrate",
+    "solution": "Vibrations produce sound."
+  },
+  {
+    "id": "S-P6-INTL-006-OPEN",
+    "subject": "Science",
+    "topic": "Interactions (Light/Heat/Sound)",
+    "skill_tag": "SCI.LIGHT.SOURCES",
+    "type": "open",
+    "text": "Name one factor that affects the size of a shadow.",
+    "answer": "distance between object and screen|distance between object and light source|angle of light|size of object",
+    "solution": "Changing distances or angles changes shadow size."
+  },
+  {
+    "id": "S-P6-INTL-007-MCQ",
+    "subject": "Science",
+    "topic": "Interactions (Light/Heat/Sound)",
+    "skill_tag": "SCI.HEAT.CONDUCTION",
+    "type": "mcq",
+    "text": "Which method of heat transfer does not require a medium?",
+    "options": [
+      "conduction",
+      "convection",
+      "radiation",
+      "insulation"
+    ],
+    "answer": "radiation",
+    "solution": "Radiation can occur through a vacuum."
+  },
+  {
+    "id": "S-P6-INTL-008-OPEN",
+    "subject": "Science",
+    "topic": "Interactions (Light/Heat/Sound)",
+    "skill_tag": "SCI.INT.SOUND",
+    "type": "open",
+    "text": "State one way to reduce echoes in a hall.",
+    "answer": "add carpets|install curtains|use sound-absorbing panels|add cushions",
+    "solution": "Soft materials absorb sound."
+  },
+  {
+    "id": "S-P6-INTL-009-MCQ",
+    "subject": "Science",
+    "topic": "Interactions (Light/Heat/Sound)",
+    "skill_tag": "SCI.LIGHT.SOURCES",
+    "type": "mcq",
+    "text": "Which change increases the brightness of a bulb in a simple circuit?",
+    "options": [
+      "use thinner wire only",
+      "use fewer batteries",
+      "add another bulb in series",
+      "use more batteries in series"
+    ],
+    "answer": "use more batteries in series",
+    "solution": "Higher voltage increases brightness."
+  },
+  {
+    "id": "S-P6-INTL-010-OPEN",
+    "subject": "Science",
+    "topic": "Interactions (Light/Heat/Sound)",
+    "skill_tag": "SCI.HEAT.CONDUCTION",
+    "type": "open",
+    "text": "Hot air rises. Name the heat transfer process involved.",
+    "answer": "convection",
+    "solution": "Warm, less dense air rises; cooler air sinks."
+  },
+  {
+    "id": "S-P6-ENE-001-MCQ",
+    "subject": "Science",
+    "topic": "Energy (Electricity)",
+    "skill_tag": "SCI.ELEC.CIRCUITS",
+    "type": "mcq",
+    "text": "In a simple series circuit, the bulb does not light. Which could be the reason?",
+    "options": [
+      "open switch",
+      "complete circuit",
+      "fresh batteries connected properly",
+      "good bulb filament"
+    ],
+    "answer": "open switch",
+    "solution": "An open switch breaks the circuit."
+  },
+  {
+    "id": "S-P6-ENE-002-MCQ",
+    "subject": "Science",
+    "topic": "Energy (Electricity)",
+    "skill_tag": "SCI.MAT.PROPERTIES",
+    "type": "mcq",
+    "text": "Which material is a good electrical conductor?",
+    "options": [
+      "rubber",
+      "glass",
+      "plastic",
+      "copper"
+    ],
+    "answer": "copper",
+    "solution": "Metals like copper conduct electricity well."
+  },
+  {
+    "id": "S-P6-ENE-003-OPEN",
+    "subject": "Science",
+    "topic": "Energy (Electricity)",
+    "skill_tag": "SCI.ELEC.CIRCUITS",
+    "type": "open",
+    "text": "Name the type of circuit where components are connected one after another in a single loop.",
+    "answer": "series circuit|series",
+    "solution": "Single path for current → series circuit."
+  },
+  {
+    "id": "S-P6-ENE-004-MCQ",
+    "subject": "Science",
+    "topic": "Energy (Electricity)",
+    "skill_tag": "SCI.ELEC.CIRCUITS",
+    "type": "mcq",
+    "text": "Adding another identical bulb in parallel will make each bulb __.",
+    "options": [
+      "brighter",
+      "dimmer",
+      "stay the same",
+      "overheat"
+    ],
+    "answer": "stay the same",
+    "solution": "In a parallel circuit each bulb is connected across the full supply voltage. Adding another identical bulb in parallel increases the total current drawn from the source but does not change the voltage across each bulb - so each bulb remains the same brightness."
+  },
+  {
+    "id": "S-P6-ENE-005-MCQ",
+    "subject": "Science",
+    "topic": "Energy (General)",
+    "skill_tag": "SCI.ENE.CONV.ELECTRICAL_TO_HEAT_LIGHT_SOUND",
+    "type": "mcq",
+    "text": "Which is an example of potential energy?",
+    "options": [
+      "moving car",
+      "stretched rubber band",
+      "falling rock",
+      "flowing river"
+    ],
+    "answer": "stretched rubber band",
+    "solution": "Stored elastic potential energy."
+  },
+  {
+    "id": "S-P6-ENE-006-OPEN",
+    "subject": "Science",
+    "topic": "Energy (General)",
+    "skill_tag": "SCI.ENE.CONV.ELECTRICAL_TO_HEAT_LIGHT_SOUND",
+    "type": "open",
+    "text": "Name the energy conversion in a battery-powered torch when switched on.",
+    "answer": "chemical to electrical to light|chemical → electrical → light",
+    "solution": "Chemical energy in battery → electrical → light (and heat)."
+  },
+  {
+    "id": "S-P6-ENE-007-MCQ",
+    "subject": "Science",
+    "topic": "Energy (Electricity)",
+    "skill_tag": "SCI.ELEC.CONDUCTORS_INSULATORS",
+    "type": "mcq",
+    "text": "Which is a safe practice when using electricity?",
+    "options": [
+      "touch switches with wet hands",
+      "overload sockets",
+      "replace frayed wires promptly",
+      "stick metal objects into sockets"
+    ],
+    "answer": "replace frayed wires promptly",
+    "solution": "Damaged insulation is dangerous."
+  },
+  {
+    "id": "S-P6-ENE-008-OPEN",
+    "subject": "Science",
+    "topic": "Energy (General)",
+    "skill_tag": "SCI.ENE.CONSERVATION_AWARENESS",
+    "type": "open",
+    "text": "Give one example of a renewable source of energy.",
+    "answer": "solar|wind|hydroelectric|geothermal|biomass",
+    "solution": "Renewable sources can be naturally replenished."
+  },
+  {
+    "id": "S-P6-ENE-009-MCQ",
+    "subject": "Science",
+    "topic": "Energy (Electricity)",
+    "skill_tag": "SCI.ELEC.CIRCUITS",
+    "type": "mcq",
+    "text": "A closed switch in a simple circuit will cause the bulb to __.",
+    "options": [
+      "go off",
+      "flicker",
+      "light up",
+      "break"
+    ],
+    "answer": "light up",
+    "solution": "Closed switch completes the circuit."
+  },
+  {
+    "id": "S-P6-ENE-010-OPEN",
+    "subject": "Science",
+    "topic": "Energy (General)",
+    "skill_tag": "SCI.ENE.CONV.ELECTRICAL_TO_HEAT_LIGHT_SOUND",
+    "type": "open",
+    "text": "State the main form of energy produced by a ringing alarm clock.",
+    "answer": "sound",
+    "solution": "The alarm produces sound energy."
+  },
+  {
+    "id": "S-P6-METH-001-MCQ",
+    "subject": "Science",
+    "topic": "Scientific Method",
+    "skill_tag": "SCI.METH.VARIABLES",
+    "type": "mcq",
+    "text": "In a fair test, which variable should be changed?",
+    "options": [
+      "controlled variable",
+      "manipulated (independent) variable",
+      "responding (dependent) variable",
+      "random variable"
+    ],
+    "answer": "manipulated (independent) variable",
+    "solution": "Only the manipulated variable is changed."
+  },
+  {
+    "id": "S-P6-METH-002-MCQ",
+    "subject": "Science",
+    "topic": "Scientific Method",
+    "skill_tag": "SCI.METH.VARIABLES",
+    "type": "mcq",
+    "text": "When investigating the effect of light on plant growth, the height of the plant is the __.",
+    "options": [
+      "manipulated variable",
+      "responding variable",
+      "controlled variable",
+      "irrelevant variable"
+    ],
+    "answer": "responding variable",
+    "solution": "Height responds to the presence/absence of light."
+  },
+  {
+    "id": "S-P6-METH-003-OPEN",
+    "subject": "Science",
+    "topic": "Scientific Method",
+    "skill_tag": "SCI.METH.HYPOTHESIS",
+    "type": "open",
+    "text": "Write a suitable hypothesis: Plants with more light grow __ than plants with less light.",
+    "answer": "taller|faster",
+    "solution": "A testable prediction relating light to growth."
+  },
+  {
+    "id": "S-P6-METH-004-TABLE",
+    "subject": "Science",
+    "topic": "Scientific Method",
+    "skill_tag": "SCI.METH.DATA",
+    "type": "mcq",
+    "text": "A student recorded plant heights over 3 weeks.",
+    "table": {
+      "headers": [
+        "Week",
+        "Height (cm)"
+      ],
+      "rows": [
+        [
+          "1",
+          "5"
+        ],
+        [
+          "2",
+          "9"
+        ],
+        [
+          "3",
+          "14"
+        ]
+      ]
+    },
+    "options": [
+      "+2 cm each week",
+      "+4 cm then +5 cm",
+      "+4 cm each week",
+      "+5 cm then +4 cm"
+    ],
+    "answer": "+4 cm then +5 cm",
+    "solution": "5→9 (+4), 9→14 (+5)."
+  },
+  {
+    "id": "S-P6-METH-005-OPEN",
+    "subject": "Science",
+    "topic": "Scientific Method",
+    "skill_tag": "SCI.METH.CONTROL",
+    "type": "open",
+    "text": "State one variable that should be kept the same when testing how temperature affects the time for sugar to dissolve in water.",
+    "answer": "amount of sugar|volume of water|stirring rate|type of sugar",
+    "solution": "Control variables ensure a fair test."
+  },
+  {
+    "id": "S-P6-METH-006-MCQ",
+    "subject": "Science",
+    "topic": "Scientific Method",
+    "skill_tag": "SCI.METH.GRAPH",
+    "type": "mcq",
+    "text": "On a graph, the manipulated variable is usually plotted on the __.",
+    "options": [
+      "x-axis",
+      "y-axis",
+      "diagonal",
+      "legend"
+    ],
+    "answer": "x-axis",
+    "solution": "Independent variable on x-axis; dependent on y-axis."
+  },
+  {
+    "id": "S-P6-METH-007-OPEN",
+    "subject": "Science",
+    "topic": "Scientific Method",
+    "skill_tag": "SCI.METH.CONCLUDE",
+    "type": "open",
+    "text": "After an experiment, what should a conclusion be based on?",
+    "answer": "results|data|evidence",
+    "solution": "Conclusions must be supported by the results."
+  },
+  {
+    "id": "S-P6-METH-008-MCQ",
+    "subject": "Science",
+    "topic": "Scientific Method",
+    "skill_tag": "SCI.METH.ANALYSE",
+    "type": "mcq",
+    "text": "Which improves the reliability of results?",
+    "options": [
+      "do the experiment once",
+      "increase number of repeats",
+      "change two variables at once",
+      "avoid recording anomalies"
+    ],
+    "answer": "increase number of repeats",
+    "solution": "Repeats reduce random errors."
+  },
+  {
+    "id": "S-P6-METH-009-OPEN",
+    "subject": "Science",
+    "topic": "Scientific Method",
+    "skill_tag": "SCI.WATER.EVAP_COND",
+    "type": "open",
+    "text": "Name a suitable instrument to measure volume of a liquid accurately in the lab.",
+    "answer": "measuring cylinder|graduated cylinder",
+    "solution": "Use a measuring/graduate cylinder for liquid volume."
+  },
+  {
+    "id": "S-P6-METH-010-TABLE",
+    "subject": "Science",
+    "topic": "Scientific Method",
+    "skill_tag": "SCI.METH.DATA",
+    "type": "open",
+    "text": "From the table: Time (s): 0, 5, 10, 15. Temperature (°C): 25, 28, 30, 31. What is the temperature at 10 s?",
+    "table": {
+      "headers": [
+        "Time (s)",
+        "Temperature (°C)"
+      ],
+      "rows": [
+        [
+          "0",
+          "25"
+        ],
+        [
+          "5",
+          "28"
+        ],
+        [
+          "10",
+          "30"
+        ],
+        [
+          "15",
+          "31"
+        ]
+      ]
+    },
+    "answer": "30|30 °c|30°c|30 c",
+    "solution": "Read directly from the table: 30 °C at 10 s."
+  },
+  {
+    "id": "S-P6-ECO-001-MCQ",
+    "subject": "Science",
+    "topic": "Interactions (Ecosystems)",
+    "skill_tag": "SCI.DIV.CLASSIFY_PLANTS_ANIMALS",
+    "type": "mcq",
+    "text": "In a simple food chain: grass → grasshopper → frog → snake. The frog is a __.",
+    "options": [
+      "producer",
+      "primary consumer",
+      "secondary consumer",
+      "decomposer"
+    ],
+    "answer": "secondary consumer",
+    "solution": "Grasshopper is primary; frog feeds on it (secondary)."
+  },
+  {
+    "id": "S-P6-ECO-002-MCQ",
+    "subject": "Science",
+    "topic": "Interactions (Ecosystems)",
+    "skill_tag": "SCI.DIV.CLASSIFY_PLANTS_ANIMALS",
+    "type": "mcq",
+    "text": "Which is a non-living factor in a habitat?",
+    "options": [
+      "predators",
+      "plants",
+      "temperature",
+      "prey"
+    ],
+    "answer": "temperature",
+    "solution": "Temperature is abiotic (non-living)."
+  },
+  {
+    "id": "S-P6-ECO-003-OPEN",
+    "subject": "Science",
+    "topic": "Interactions (Ecosystems)",
+    "skill_tag": "SCI.ENV.ADAP",
+    "type": "open",
+    "text": "Name one adaptation of a fish that helps it move in water.",
+    "answer": "streamlined body|fins|slimy scales",
+    "solution": "Streamlining reduces water resistance; fins aid movement."
+  },
+  {
+    "id": "S-P6-ECO-004-MCQ",
+    "subject": "Science",
+    "topic": "Interactions (Ecosystems)",
+    "skill_tag": "SCI.DIV.CLASSIFY_PLANTS_ANIMALS",
+    "type": "mcq",
+    "text": "If the number of snakes decreases, which population is likely to increase first?",
+    "options": [
+      "grass",
+      "grasshoppers",
+      "frogs",
+      "decomposers"
+    ],
+    "answer": "frogs",
+    "solution": "Fewer snakes → less predation on frogs."
+  },
+  {
+    "id": "S-P6-ECO-005-OPEN",
+    "subject": "Science",
+    "topic": "Interactions (Ecosystems)",
+    "skill_tag": "SCI.ENE.CONSERVATION_AWARENESS",
+    "type": "open",
+    "text": "State one way humans can help conserve water in daily life.",
+    "answer": "take shorter showers|turn off tap when brushing|fix leaks",
+    "solution": "Reduce wastage to conserve water."
+  },
+  {
+    "id": "S-P6-ECO-006-MCQ",
+    "subject": "Science",
+    "topic": "Interactions (Ecosystems)",
+    "skill_tag": "SCI.ENE.CONSERVATION_AWARENESS",
+    "type": "mcq",
+    "text": "Which activity most directly causes air pollution?",
+    "options": [
+      "recycling paper",
+      "planting trees",
+      "burning rubbish",
+      "using solar panels"
+    ],
+    "answer": "burning rubbish",
+    "solution": "Burning releases smoke and harmful gases."
+  },
+  {
+    "id": "S-P6-ECO-007-OPEN",
+    "subject": "Science",
+    "topic": "Interactions (Ecosystems)",
+    "skill_tag": "SCI.DIV.CLASSIFY_PLANTS_ANIMALS",
+    "type": "open",
+    "text": "In a food chain, organisms that make their own food are called __.",
+    "answer": "producers",
+    "solution": "Plants are producers."
+  },
+  {
+    "id": "S-P6-ECO-008-MCQ",
+    "subject": "Science",
+    "topic": "Interactions (Ecosystems)",
+    "skill_tag": "SCI.ENV.ADAP",
+    "type": "mcq",
+    "text": "Mangrove trees have breathing roots mainly to __.",
+    "options": [
+      "store water",
+      "absorb more minerals",
+      "obtain oxygen in waterlogged soil",
+      "anchor the tree in soft mud"
+    ],
+    "answer": "obtain oxygen in waterlogged soil",
+    "solution": "Pneumatophores help in gas exchange."
+  },
+  {
+    "id": "S-P6-ECO-009-TABLE",
+    "subject": "Science",
+    "topic": "Interactions (Ecosystems)",
+    "skill_tag": "SCI.ENV.POP_COMMUNITY",
+    "type": "mcq",
+    "text": "A survey counted organisms in a pond.",
+    "table": {
+      "headers": [
+        "Organism",
+        "Number"
+      ],
+      "rows": [
+        [
+          "algae",
+          "500"
+        ],
+        [
+          "small fish",
+          "120"
+        ],
+        [
+          "dragonfly nymphs",
+          "60"
+        ],
+        [
+          "frogs",
+          "30"
+        ]
+      ]
+    },
+    "options": [
+      "algae",
+      "small fish",
+      "dragonfly nymphs",
+      "frogs"
+    ],
+    "answer": "algae",
+    "solution": "Algae are most numerous (likely producers)."
+  },
+  {
+    "id": "S-P6-ECO-010-OPEN",
+    "subject": "Science",
+    "topic": "Interactions (Ecosystems)",
+    "skill_tag": "SCI.ENE.CONSERVATION_AWARENESS",
+    "type": "open",
+    "text": "State one reason why we should conserve biodiversity.",
+    "answer": "maintain ecosystem balance|preserve resources|protect habitats",
+    "solution": "Biodiversity supports ecosystem stability and resources."
+  }
+]

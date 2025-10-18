@@ -1,0 +1,1418 @@
+[
+  {
+    "id": "E-P6-GRAM-001-MCQ",
+    "subject": "English",
+    "topic": "Subject–Verb Agreement",
+    "skill_tag": "ENG.GRAM.SVA.BASIC",
+    "type": "mcq",
+    "text": "Neither the boys nor their coach __ going to the finals this year.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "solution": "Nearest subject 'coach' (singular) → 'is'."
+  },
+  {
+    "id": "E-P6-GRAM-002-MCQ",
+    "subject": "English",
+    "topic": "Verbs & Tenses",
+    "skill_tag": "ENG.GRAM.TENSE.SIMPLE",
+    "type": "mcq",
+    "text": "By the time we arrived, the film __.",
+    "options": [
+      "will start",
+      "has started",
+      "had started",
+      "starts"
+    ],
+    "answer": "had started",
+    "solution": "Past perfect shows an action completed before another past action."
+  },
+  {
+    "id": "E-P6-GRAM-003-MCQ",
+    "subject": "English",
+    "topic": "Nouns & Pronouns",
+    "skill_tag": "ENG.GRAM.PRONOUN",
+    "type": "mcq",
+    "text": "Neither Mei nor Siti brought __ umbrella.",
+    "options": [
+      "her",
+      "their",
+      "hers",
+      "she"
+    ],
+    "answer": "her",
+    "solution": "Pronoun agrees with the nearer subject 'Siti' → 'her'."
+  },
+  {
+    "id": "E-P6-GRAM-004-MCQ",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.GRAM.ARTICLES",
+    "type": "mcq",
+    "text": "He is __ honest man with __ unusual story.",
+    "options": [
+      "a, a",
+      "an, an",
+      "an, a",
+      "a, an"
+    ],
+    "answer": "an, an",
+    "solution": "Vowel sounds: 'honest' /ˈɒn-/ and 'unusual' /ʌn-/. Use 'an'."
+  },
+  {
+    "id": "E-P6-GRAM-005-MCQ",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.GRAM.PREPOSITION",
+    "type": "mcq",
+    "text": "The cat jumped __ the table in a single leap.",
+    "options": [
+      "in",
+      "onto",
+      "into",
+      "upon of"
+    ],
+    "answer": "onto",
+    "solution": "Movement to a surface → 'onto'."
+  },
+  {
+    "id": "E-P6-GRAM-006-MCQ",
+    "subject": "English",
+    "topic": "Verbs & Tenses",
+    "skill_tag": "ENG.GRAM.TENSE.SIMPLE",
+    "type": "mcq",
+    "text": "She sings __ than her sister.",
+    "options": [
+      "more beautifully",
+      "most beautifully",
+      "beautiful",
+      "beautifuller"
+    ],
+    "answer": "more beautifully",
+    "solution": "Comparative of adverb with 'more'."
+  },
+  {
+    "id": "E-P6-GRAM-007-MCQ",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.GRAM.CONJUNCTION",
+    "type": "mcq",
+    "text": "We can go hiking __ it does not rain.",
+    "options": [
+      "and",
+      "so",
+      "if",
+      "because"
+    ],
+    "answer": "if",
+    "solution": "Condition → 'if'."
+  },
+  {
+    "id": "E-P6-GRAM-008-MCQ",
+    "subject": "English",
+    "topic": "Verbs & Tenses",
+    "skill_tag": "ENG.GRAM.MODAL",
+    "type": "mcq",
+    "text": "You __ finish your homework before playing.",
+    "options": [
+      "must",
+      "may",
+      "might",
+      "would"
+    ],
+    "answer": "must",
+    "solution": "Obligation → 'must'."
+  },
+  {
+    "id": "E-P6-GRAM-009-MCQ",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.GRAM.COMPARATIVE",
+    "type": "mcq",
+    "text": "This puzzle is __ than the previous one.",
+    "options": [
+      "difficult",
+      "more difficult",
+      "most difficult",
+      "difficultest"
+    ],
+    "answer": "more difficult",
+    "solution": "Comparative form for two items → 'more difficult'."
+  },
+  {
+    "id": "E-P6-GRAM-010-MCQ",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.GRAM.RELCLAUSE",
+    "type": "mcq",
+    "text": "The woman __ lives next door is a doctor.",
+    "options": [
+      "which",
+      "who",
+      "whom",
+      "whose"
+    ],
+    "answer": "who",
+    "solution": "Relative pronoun for people (subject) → 'who'."
+  },
+  {
+    "id": "E-P6-GRAM-011-OPEN",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.GRAM.TAGQ",
+    "type": "open",
+    "text": "Complete the tag: \"You have finished the assignment, __?\"",
+    "answer": "haven't you",
+    "solution": "Positive statement → negative tag 'haven't you'."
+  },
+  {
+    "id": "E-P6-GRAM-012-OPEN",
+    "subject": "English",
+    "topic": "Subject–Verb Agreement",
+    "skill_tag": "ENG.GRAM.SVA.BASIC",
+    "type": "open",
+    "text": "Fill in the blank: \"The news __ shocking.\" (write the verb in full)",
+    "answer": "is",
+    "solution": "'News' is uncountable singular → 'is'."
+  },
+  {
+    "id": "E-P6-GRAM-013-MCQ",
+    "subject": "English",
+    "topic": "Verbs & Tenses",
+    "skill_tag": "ENG.GRAM.TENSE.PERF",
+    "type": "mcq",
+    "text": "I __ this book since last week, but I still haven't finished it.",
+    "options": [
+      "read",
+      "am reading",
+      "have been reading",
+      "had read"
+    ],
+    "answer": "have been reading",
+    "solution": "Action started in past and continuing → present perfect continuous."
+  },
+  {
+    "id": "E-P6-GRAM-014-MCQ",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.GRAM.PASSIVE",
+    "type": "mcq",
+    "text": "Change to passive: \"They built the bridge in 2010.\"",
+    "options": [
+      "The bridge was built in 2010.",
+      "The bridge is built in 2010.",
+      "The bridge has built in 2010.",
+      "The bridge were built in 2010."
+    ],
+    "answer": "The bridge was built in 2010.",
+    "solution": "Past simple passive → 'was built'."
+  },
+  {
+    "id": "E-P6-GRAM-015-MCQ",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.GRAM.CONDITIONALS",
+    "type": "mcq",
+    "text": "If you had told me earlier, I __ you.",
+    "options": [
+      "help",
+      "helped",
+      "would help",
+      "would have helped"
+    ],
+    "answer": "would have helped",
+    "solution": "Third conditional for past unreal situations."
+  },
+  {
+    "id": "E-P6-GRAM-016-OPEN",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.GRAM.PREPOSITION",
+    "type": "open",
+    "text": "Fill in one word: \"He is afraid __ spiders.\"",
+    "answer": "of",
+    "solution": "Fixed phrase: 'afraid of'."
+  },
+  {
+    "id": "E-P6-GRAM-017-MCQ",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.GRAM.REPORTED",
+    "type": "mcq",
+    "text": "Direct → Reported: She said, \"I am tired.\"",
+    "options": [
+      "She said she is tired.",
+      "She said she was tired.",
+      "She says she was tired.",
+      "She said that I was tired."
+    ],
+    "answer": "She said she was tired.",
+    "solution": "Backshift to past in reported speech."
+  },
+  {
+    "id": "E-P6-GRAM-018-MCQ",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.GRAM.GERUND",
+    "type": "mcq",
+    "text": "__ early helps me avoid the traffic.",
+    "options": [
+      "To leave",
+      "Leave",
+      "Leaving",
+      "Left"
+    ],
+    "answer": "Leaving",
+    "solution": "Gerund as subject."
+  },
+  {
+    "id": "E-P6-GRAM-019-OPEN",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.GRAM.CONJUNCTION",
+    "type": "open",
+    "text": "Fill one word: \"She studied hard __ she could win the scholarship.\"",
+    "answer": "so",
+    "solution": "Result clause → 'so'."
+  },
+  {
+    "id": "E-P6-GRAM-020-MCQ",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.GRAM.RELCLAUSE",
+    "type": "mcq",
+    "text": "Choose the correct word: \"The book, __ cover is torn, is mine.\"",
+    "options": [
+      "who",
+      "whom",
+      "which",
+      "whose"
+    ],
+    "answer": "whose",
+    "solution": "'Whose' shows possession."
+  },
+  {
+    "id": "E-P6-VOCAB-001-MCQ",
+    "subject": "English",
+    "topic": "Vocabulary & Word Use",
+    "skill_tag": "ENG.VOCAB.CONTEXT",
+    "type": "mcq",
+    "text": "Choose the closest meaning: \"The hikers were exhausted after the arduous climb.\"",
+    "options": [
+      "short",
+      "easy",
+      "difficult",
+      "pleasant"
+    ],
+    "answer": "difficult",
+    "solution": "Arduous = difficult."
+  },
+  {
+    "id": "E-P6-VOCAB-002-MCQ",
+    "subject": "English",
+    "topic": "Vocabulary & Word Use",
+    "skill_tag": "ENG.VOCAB.SYN_ANT",
+    "type": "mcq",
+    "text": "Select the synonym of \"scarce\":",
+    "options": [
+      "plentiful",
+      "rare",
+      "common",
+      "available"
+    ],
+    "answer": "rare",
+    "solution": "Scarce ≈ rare."
+  },
+  {
+    "id": "E-P6-VOCAB-003-MCQ",
+    "subject": "English",
+    "topic": "Vocabulary & Word Use",
+    "skill_tag": "ENG.VOCAB.SYN_ANT",
+    "type": "mcq",
+    "text": "Antonym of \"admire\":",
+    "options": [
+      "respect",
+      "praise",
+      "despise",
+      "honour"
+    ],
+    "answer": "despise",
+    "solution": "Opposite meaning."
+  },
+  {
+    "id": "E-P6-VOCAB-004-OPEN",
+    "subject": "English",
+    "topic": "Vocabulary & Word Use",
+    "skill_tag": "ENG.VOCAB.PHRASAL",
+    "type": "open",
+    "text": "Fill one phrasal verb: \"Please __ the lights before you leave.\" (turn off / put out)",
+    "answer": "turn off|put out",
+    "solution": "Both acceptable in context."
+  },
+  {
+    "id": "E-P6-VOCAB-005-MCQ",
+    "subject": "English",
+    "topic": "Vocabulary & Word Use",
+    "skill_tag": "ENG.VOCAB.CONTEXT",
+    "type": "mcq",
+    "text": "The teacher asked for a __ explanation of the answer.",
+    "options": [
+      "vague",
+      "brief",
+      "clear",
+      "careless"
+    ],
+    "answer": "clear",
+    "solution": "Context collocation."
+  },
+  {
+    "id": "E-P6-VOCAB-006-MCQ",
+    "subject": "English",
+    "topic": "Vocabulary & Word Use",
+    "skill_tag": "ENG.VOCAB.SYN_ANT",
+    "type": "mcq",
+    "text": "Idiom: \"break the ice\" means to __.",
+    "options": [
+      "start a conversation",
+      "stop fighting",
+      "cause trouble",
+      "win easily"
+    ],
+    "answer": "start a conversation",
+    "solution": "Common idiom meaning."
+  },
+  {
+    "id": "E-P6-VOCAB-007-OPEN",
+    "subject": "English",
+    "topic": "Vocabulary & Word Use",
+    "skill_tag": "ENG.VOCAB.COLLOCATION",
+    "type": "open",
+    "text": "Fill one word: \"She made a __ decision.\" (strong/careful/quick?) Choose the best collocation.",
+    "answer": "quick",
+    "solution": "Collocation: 'quick decision'."
+  },
+  {
+    "id": "E-P6-VOCAB-008-MCQ",
+    "subject": "English",
+    "topic": "Verbs & Tenses",
+    "skill_tag": "ENG.GRAM.TENSE.SIMPLE",
+    "type": "mcq",
+    "text": "Proverb: \"A stitch in time saves nine\" means __.",
+    "options": [
+      "work faster",
+      "fixing small problems early prevents bigger ones",
+      "sew carefully",
+      "time is precious"
+    ],
+    "answer": "fixing small problems early prevents bigger ones",
+    "solution": "Meaning of the proverb."
+  },
+  {
+    "id": "E-P6-VOCAB-009-MCQ",
+    "subject": "English",
+    "topic": "Vocabulary & Word Use",
+    "skill_tag": "ENG.VOCAB.CONTEXT",
+    "type": "mcq",
+    "text": "Choose the best word: \"The __ crowd cheered as the team scored.\"",
+    "options": [
+      "silent",
+      "ecstatic",
+      "gloomy",
+      "sleepy"
+    ],
+    "answer": "ecstatic",
+    "solution": "Positive emotion matches cheering."
+  },
+  {
+    "id": "E-P6-VOCAB-010-OPEN",
+    "subject": "English",
+    "topic": "Vocabulary & Word Use",
+    "skill_tag": "ENG.VOCAB.SYN_ANT",
+    "type": "open",
+    "text": "Give one synonym for \"assist\".",
+    "answer": "help|aid|support",
+    "solution": "Common synonyms."
+  },
+  {
+    "id": "E-P6-CLOZE-001-MCQ",
+    "subject": "English",
+    "topic": "Grammar Cloze",
+    "skill_tag": "ENG.CLOZE.GRAM.CONNECTOR",
+    "type": "mcq",
+    "text": "I have not seen her __ last year.",
+    "options": [
+      "for",
+      "since",
+      "from",
+      "by"
+    ],
+    "answer": "since",
+    "solution": "Point in time → 'since'."
+  },
+  {
+    "id": "E-P6-CLOZE-002-MCQ",
+    "subject": "English",
+    "topic": "Grammar Cloze",
+    "skill_tag": "ENG.CLOZE.GRAM.PRON",
+    "type": "mcq",
+    "text": "He is one of the students who __ always punctual.",
+    "options": [
+      "is",
+      "are",
+      "was",
+      "has been"
+    ],
+    "answer": "are",
+    "solution": "Relative clause agrees with 'students' (plural)."
+  },
+  {
+    "id": "E-P6-CLOZE-003-MCQ",
+    "subject": "English",
+    "topic": "Grammar Cloze",
+    "skill_tag": "ENG.CLOZE.GRAM.CONNECTOR",
+    "type": "mcq",
+    "text": "The cake smells __.",
+    "options": [
+      "delicious",
+      "deliciously",
+      "more deliciously",
+      "most deliciously"
+    ],
+    "answer": "delicious",
+    "solution": "Linking verb takes adjective."
+  },
+  {
+    "id": "E-P6-CLOZE-004-MCQ",
+    "subject": "English",
+    "topic": "Vocabulary Cloze",
+    "skill_tag": "ENG.CLOZE.VOCAB.CONTEXT",
+    "type": "mcq",
+    "text": "We must __ the rules to keep everyone safe.",
+    "options": [
+      "obey",
+      "oblige",
+      "object",
+      "obscure"
+    ],
+    "answer": "obey",
+    "solution": "Context meaning."
+  },
+  {
+    "id": "E-P6-CLOZE-005-MCQ",
+    "subject": "English",
+    "topic": "Vocabulary Cloze",
+    "skill_tag": "ENG.CLOZE.VOCAB.CONTEXT",
+    "type": "mcq",
+    "text": "The view from the mountain was __.",
+    "options": [
+      "breathtaking",
+      "breathless",
+      "breath-takingly",
+      "breaths"
+    ],
+    "answer": "breathtaking",
+    "solution": "Correct adjective form."
+  },
+  {
+    "id": "E-P6-CLOZE-006-OPEN",
+    "subject": "English",
+    "topic": "Grammar Cloze",
+    "skill_tag": "ENG.CLOZE.GRAM.CONNECTOR",
+    "type": "open",
+    "text": "Fill one word: \"The vase was broken __ the naughty cat.\"",
+    "answer": "by",
+    "solution": "Passive agent → 'by'."
+  },
+  {
+    "id": "E-P6-CLOZE-007-OPEN",
+    "subject": "English",
+    "topic": "Vocabulary Cloze",
+    "skill_tag": "ENG.CLOZE.VOCAB.CONTEXT",
+    "type": "open",
+    "text": "Fill one word: \"Please __ your seat belts before take-off.\"",
+    "answer": "fasten",
+    "solution": "Collocation: 'fasten seat belts'."
+  },
+  {
+    "id": "E-P6-CLOZE-008-MCQ",
+    "subject": "English",
+    "topic": "Grammar Cloze",
+    "skill_tag": "ENG.CLOZE.GRAM.CONNECTOR",
+    "type": "mcq",
+    "text": "Not only __ the team play well, but they also won.",
+    "options": [
+      "they did",
+      "did they",
+      "they do",
+      "do they"
+    ],
+    "answer": "did they",
+    "solution": "Inversion after 'Not only'."
+  },
+  {
+    "id": "E-P6-CLOZE-009-MCQ",
+    "subject": "English",
+    "topic": "Grammar Cloze",
+    "skill_tag": "ENG.CLOZE.GRAM.CONNECTOR",
+    "type": "mcq",
+    "text": "Much __ been done to improve recycling.",
+    "options": [
+      "have",
+      "has",
+      "having",
+      "had"
+    ],
+    "answer": "has",
+    "solution": "'Much' (uncountable) → singular verb."
+  },
+  {
+    "id": "E-P6-CLOZE-010-MCQ",
+    "subject": "English",
+    "topic": "Vocabulary Cloze",
+    "skill_tag": "ENG.CLOZE.VOCAB.CONTEXT",
+    "type": "mcq",
+    "text": "The athlete showed great __ by continuing despite the pain.",
+    "options": [
+      "persistence",
+      "persuasion",
+      "prevention",
+      "precision"
+    ],
+    "answer": "persistence",
+    "solution": "Context meaning."
+  },
+  {
+    "id": "E-P6-PUNC-001-MCQ",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.GRAM.PUNC.COMMA",
+    "type": "mcq",
+    "text": "Choose the correctly punctuated sentence.",
+    "options": [
+      "Before we eat let us wash our hands.",
+      "Before we eat, let us wash our hands.",
+      "Before, we eat let us wash our hands.",
+      "Before we eat let, us wash our hands."
+    ],
+    "answer": "Before we eat, let us wash our hands.",
+    "solution": "Comma after introductory clause."
+  },
+  {
+    "id": "E-P6-PUNC-002-MCQ",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.GRAM.PUNC.APOSTROPHE",
+    "type": "mcq",
+    "text": "Choose the correct form:",
+    "options": [
+      "childrens' toys",
+      "children's toys",
+      "childrens toys",
+      "childrens toy's"
+    ],
+    "answer": "children's toys",
+    "solution": "Plural irregular noun → possessive 'children's'."
+  },
+  {
+    "id": "E-P6-PUNC-003-OPEN",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.GRAM.PUNC.COMMA",
+    "type": "open",
+    "text": "Add the missing punctuation: she asked where are you going",
+    "answer": "\"She asked, 'Where are you going?'\"|She asked, \"Where are you going?\"",
+    "solution": "Capitalise and add quotes/question mark."
+  },
+  {
+    "id": "E-P6-PUNC-004-MCQ",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.GRAM.PUNC.COMMA",
+    "type": "mcq",
+    "text": "Best punctuation: \"It was raining heavily __ we cancelled the match.\"",
+    "options": [
+      ";",
+      "—",
+      ",",
+      "."
+    ],
+    "answer": ",",
+    "solution": "Use 'so' implicitly; comma acceptable. (Semicolon would need no conjunction.)"
+  },
+  {
+    "id": "E-P6-EDIT-001-OPEN",
+    "subject": "English",
+    "topic": "Editing (Spelling, Grammar, Punctuation)",
+    "skill_tag": "ENG.EDIT.GRAM",
+    "type": "open",
+    "text": "Correct the error: \"The group of students are planning a trip.\" (replace only the verb)",
+    "answer": "is",
+    "solution": "Subject is 'group' (singular) → 'is'."
+  },
+  {
+    "id": "E-P6-EDIT-002-OPEN",
+    "subject": "English",
+    "topic": "Verbs & Tenses",
+    "skill_tag": "ENG.GRAM.TENSE.SIMPLE",
+    "type": "open",
+    "text": "Correct the verb: \"He has went home already.\" (write the correct past participle)",
+    "answer": "gone",
+    "solution": "Present perfect takes past participle 'gone'."
+  },
+  {
+    "id": "E-P6-SYNTH-001-OPEN",
+    "subject": "English",
+    "topic": "Synthesis & Transformation",
+    "skill_tag": "ENG.SYNTRANS.REWRITE.CONJ",
+    "type": "open",
+    "text": "Join into one sentence using 'because': \"She stayed home. She was unwell.\"",
+    "answer": "She stayed home because she was unwell.",
+    "solution": "Cause-and-result link."
+  },
+  {
+    "id": "E-P6-SYNTH-002-OPEN",
+    "subject": "English",
+    "topic": "Synthesis & Transformation",
+    "skill_tag": "ENG.SYNTRANS.REWRITE.CONJ",
+    "type": "open",
+    "text": "Use 'so that': \"He hurried. He could catch the bus.\"",
+    "answer": "He hurried so that he could catch the bus.",
+    "solution": "Purpose clause."
+  },
+  {
+    "id": "E-P6-SYNTH-003-OPEN",
+    "subject": "English",
+    "topic": "Synthesis & Transformation",
+    "skill_tag": "ENG.SYNTRANS.REWRITE.RELCLAUSE",
+    "type": "open",
+    "text": "Use a relative clause with 'which': \"I bought a bag. It was on sale.\"",
+    "answer": "I bought a bag which was on sale.",
+    "solution": "Combine with 'which'."
+  },
+  {
+    "id": "E-P6-SYNTH-004-OPEN",
+    "subject": "English",
+    "topic": "Synthesis & Transformation",
+    "skill_tag": "ENG.SYNTRANS.REWRITE.CONJ",
+    "type": "open",
+    "text": "Use 'although': \"It rained. We continued playing.\"",
+    "answer": "Although it rained, we continued playing.",
+    "solution": "Concession clause."
+  },
+  {
+    "id": "E-P6-SYNTH-005-OPEN",
+    "subject": "English",
+    "topic": "Synthesis & Transformation",
+    "skill_tag": "ENG.SYNTRANS.REWRITE.VOICE",
+    "type": "open",
+    "text": "Change to passive: \"The chef prepared the meal.\"",
+    "answer": "The meal was prepared by the chef.",
+    "solution": "Past simple passive."
+  },
+  {
+    "id": "E-P6-SYNTH-006-OPEN",
+    "subject": "English",
+    "topic": "Synthesis & Transformation",
+    "skill_tag": "ENG.SYNTRANS.REWRITE.CONJ",
+    "type": "open",
+    "text": "Reported speech: He said, \"I will call you tomorrow.\"",
+    "answer": "He said that he would call me the next day.",
+    "solution": "Backshift will→would; tomorrow→the next day."
+  },
+  {
+    "id": "E-P6-SYNTH-007-OPEN",
+    "subject": "English",
+    "topic": "Synthesis & Transformation",
+    "skill_tag": "ENG.SYNTRANS.REWRITE.CONJ",
+    "type": "open",
+    "text": "Nominalise: \"The committee decided to postpone the event.\" (Begin with \"The committee's\")",
+    "answer": "The committee's decision was to postpone the event.",
+    "solution": "Verb→noun 'decision'."
+  },
+  {
+    "id": "E-P6-SYNTH-008-OPEN",
+    "subject": "English",
+    "topic": "Synthesis & Transformation",
+    "skill_tag": "ENG.SYNTRANS.REWRITE.CONJ",
+    "type": "open",
+    "text": "Begin with 'It was... that' for emphasis: \"She won the prize in 2022.\"",
+    "answer": "It was in 2022 that she won the prize.",
+    "solution": "Cleft sentence for emphasis."
+  },
+  {
+    "id": "E-P6-COMP-001-MCQ",
+    "subject": "English",
+    "topic": "Reading Comprehension (Literal)",
+    "skill_tag": "ENG.COMP.FACT",
+    "type": "mcq",
+    "text": "Passage: \"Tom trained daily for the race. On the day, heavy rain made the track slippery, but he still finished first.\" What challenge did Tom face?",
+    "options": [
+      "Strong winds",
+      "A late start",
+      "Slippery track",
+      "Injury"
+    ],
+    "answer": "Slippery track",
+    "solution": "Stated in passage."
+  },
+  {
+    "id": "E-P6-COMP-002-OPEN",
+    "subject": "English",
+    "topic": "Reading Comprehension (Inferential)",
+    "skill_tag": "ENG.COMP.INFER",
+    "type": "open",
+    "text": "Passage: \"Maya closed the windows and drew the curtains before switching on the projector.\" Why did Maya do this?",
+    "answer": "to make the room dark|to darken the room|to see the projector clearly",
+    "solution": "Inference about using a projector."
+  },
+  {
+    "id": "E-P6-COMP-003-MCQ",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.COMP.VOCAB",
+    "type": "mcq",
+    "text": "Sentence: \"The bustling market was a riot of colours.\" 'bustling' means __.",
+    "options": [
+      "quiet",
+      "noisy and busy",
+      "dirty",
+      "boring"
+    ],
+    "answer": "noisy and busy",
+    "solution": "Context meaning."
+  },
+  {
+    "id": "E-P6-COMP-004-OPEN",
+    "subject": "English",
+    "topic": "Reading Comprehension (Literal)",
+    "skill_tag": "ENG.COMP.FACT",
+    "type": "open",
+    "text": "Passage: \"The library closes at 6 p.m. on weekdays and 2 p.m. on Saturdays. It is closed on Sundays.\" What time does it close on Saturdays?",
+    "answer": "2 p.m.|2pm|2 pm",
+    "solution": "Detail retrieval."
+  },
+  {
+    "id": "E-P6-COMP-005-MCQ",
+    "subject": "English",
+    "topic": "Reading Comprehension (Evaluative)",
+    "skill_tag": "ENG.COMP.PURPOSE",
+    "type": "mcq",
+    "text": "What is the author's purpose if the passage gives steps to bake a cake?",
+    "options": [
+      "to persuade",
+      "to entertain",
+      "to inform/instruct",
+      "to describe"
+    ],
+    "answer": "to inform/instruct",
+    "solution": "Procedural text."
+  },
+  {
+    "id": "E-P6-COMP-006-OPEN",
+    "subject": "English",
+    "topic": "Reading Comprehension (Inferential)",
+    "skill_tag": "ENG.COMP.INFER",
+    "type": "open",
+    "text": "Passage: \"Jia looked at the dark clouds and grabbed an umbrella.\" What was Jia expecting?",
+    "answer": "rain|it to rain",
+    "solution": "Inference from context."
+  },
+  {
+    "id": "E-P6-COMP-007-MCQ",
+    "subject": "English",
+    "topic": "Reading Comprehension (Evaluative)",
+    "skill_tag": "ENG.COMP.TONE",
+    "type": "mcq",
+    "text": "Which word best describes the writer's tone if they are calmly explaining facts?",
+    "options": [
+      "sarcastic",
+      "objective",
+      "angry",
+      "humorous"
+    ],
+    "answer": "objective",
+    "solution": "Neutral, factual tone."
+  },
+  {
+    "id": "E-P6-COMP-008-MCQ",
+    "subject": "English",
+    "topic": "Reading Comprehension (Literal)",
+    "skill_tag": "ENG.COMP.MAINIDEA",
+    "type": "mcq",
+    "text": "A paragraph describes how recycling benefits the environment by reducing waste and saving resources. The main idea is __.",
+    "options": [
+      "recycling costs money",
+      "recycling benefits the environment",
+      "recycling is difficult",
+      "recycling is unpopular"
+    ],
+    "answer": "recycling benefits the environment",
+    "solution": "Main idea extraction."
+  },
+  {
+    "id": "E-P6-COMP-009-OPEN",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.COMP.CAUSE",
+    "type": "open",
+    "text": "Sentence: \"Since it was a public holiday, the streets were quieter.\" Give the cause in a few words.",
+    "answer": "it was a public holiday|a public holiday",
+    "solution": "Cause identified by 'since'."
+  },
+  {
+    "id": "E-P6-COMP-010-MCQ",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.COMP.REFERENCE",
+    "type": "mcq",
+    "text": "In: \"Tom met Ben, and he gave him a book.\" The pronoun 'he' most likely refers to __.",
+    "options": [
+      "Tom",
+      "Ben",
+      "the book",
+      "both Tom and Ben"
+    ],
+    "answer": "Tom",
+    "solution": "Nearest, clearer antecedent is Tom (giver)."
+  },
+  {
+    "id": "E-P6-COMP-011-TABLE",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.COMP.DATA",
+    "type": "mcq",
+    "text": "Look at the timetable below. Which class ends the latest?",
+    "table": {
+      "headers": [
+        "Class",
+        "Start",
+        "End"
+      ],
+      "rows": [
+        [
+          "Art",
+          "1:00",
+          "2:15"
+        ],
+        [
+          "Science",
+          "1:30",
+          "2:45"
+        ],
+        [
+          "Music",
+          "1:15",
+          "2:30"
+        ]
+      ]
+    },
+    "options": [
+      "Art",
+      "Science",
+      "Music",
+      "All end at same time"
+    ],
+    "answer": "Science",
+    "solution": "Science ends at 2:45, the latest."
+  },
+  {
+    "id": "E-P6-COMP-012-TABLE",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.COMP.DATA",
+    "type": "open",
+    "text": "From the table, how long is the Art class? (answer in minutes)",
+    "table": {
+      "headers": [
+        "Class",
+        "Start",
+        "End"
+      ],
+      "rows": [
+        [
+          "Art",
+          "1:00",
+          "2:15"
+        ],
+        [
+          "Science",
+          "1:30",
+          "2:45"
+        ],
+        [
+          "Music",
+          "1:15",
+          "2:30"
+        ]
+      ]
+    },
+    "answer": "75",
+    "solution": "1:00–2:15 = 1h15m = 75 minutes."
+  },
+  {
+    "id": "E-P6-IDIOM-001-MCQ",
+    "subject": "English",
+    "topic": "Vocabulary & Word Use",
+    "skill_tag": "ENG.VOCAB.SYN_ANT",
+    "type": "mcq",
+    "text": "\"Hit the books\" means to __.",
+    "options": [
+      "throw books",
+      "study hard",
+      "buy books",
+      "write a book"
+    ],
+    "answer": "study hard",
+    "solution": "Idiom meaning."
+  },
+  {
+    "id": "E-P6-IDIOM-002-MCQ",
+    "subject": "English",
+    "topic": "Vocabulary & Word Use",
+    "skill_tag": "ENG.VOCAB.SYN_ANT",
+    "type": "mcq",
+    "text": "\"Once in a blue moon\" means __.",
+    "options": [
+      "very often",
+      "sometimes",
+      "rarely",
+      "always"
+    ],
+    "answer": "rarely",
+    "solution": "Idiom meaning."
+  },
+  {
+    "id": "E-P6-IDIOM-003-OPEN",
+    "subject": "English",
+    "topic": "Verbs & Tenses",
+    "skill_tag": "ENG.GRAM.TENSE.SIMPLE",
+    "type": "open",
+    "text": "Complete the proverb: \"Practice makes __.\"",
+    "answer": "perfect",
+    "solution": "Common proverb."
+  },
+  {
+    "id": "E-P6-GRAM-021-MCQ",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.GRAM.QUANTIFIERS",
+    "type": "mcq",
+    "text": "There isn't __ milk left in the fridge.",
+    "options": [
+      "much",
+      "many",
+      "a few",
+      "several"
+    ],
+    "answer": "much",
+    "solution": "Uncountable noun → 'much'."
+  },
+  {
+    "id": "E-P6-GRAM-022-OPEN",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.GRAM.ADJECTIVE",
+    "type": "open",
+    "text": "Write the superlative: \"interesting\"",
+    "answer": "most interesting",
+    "solution": "Long adjective → 'most interesting'."
+  },
+  {
+    "id": "E-P6-GRAM-023-MCQ",
+    "subject": "English",
+    "topic": "Subject–Verb Agreement",
+    "skill_tag": "ENG.GRAM.SVA.BASIC",
+    "type": "mcq",
+    "text": "Ten dollars __ too much to pay for this.",
+    "options": [
+      "are",
+      "were",
+      "is",
+      "have"
+    ],
+    "answer": "is",
+    "solution": "Amounts of money take singular verb."
+  },
+  {
+    "id": "E-P6-GRAM-024-MCQ",
+    "subject": "English",
+    "topic": "Verbs & Tenses",
+    "skill_tag": "ENG.GRAM.TENSE.SIMPLE",
+    "type": "mcq",
+    "text": "She __ her keys, so she can't open the door.",
+    "options": [
+      "lost",
+      "has lost",
+      "had lost",
+      "loses"
+    ],
+    "answer": "has lost",
+    "solution": "Present result → present perfect."
+  },
+  {
+    "id": "E-P6-GRAM-025-OPEN",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.GRAM.WORDFORM",
+    "type": "open",
+    "text": "Give the noun form of 'decide'.",
+    "answer": "decision",
+    "solution": "Verb→noun."
+  },
+  {
+    "id": "E-P6-COMP-013-MCQ",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.COMP.SEQUENCE",
+    "type": "mcq",
+    "text": "Passage: \"First, wash the vegetables. Next, chop them. Finally, stir-fry for five minutes.\" What is done last?",
+    "options": [
+      "wash",
+      "chop",
+      "stir-fry",
+      "season"
+    ],
+    "answer": "stir-fry",
+    "solution": "Last step stated."
+  },
+  {
+    "id": "E-P6-COMP-014-OPEN",
+    "subject": "English",
+    "topic": "Reading Comprehension (Inferential)",
+    "skill_tag": "ENG.COMP.INFER",
+    "type": "open",
+    "text": "Sentence: \"He tiptoed into the room.\" What does this suggest about the sound he made?",
+    "answer": "very little sound|quietly|softly",
+    "solution": "Implication of 'tiptoed'."
+  },
+  {
+    "id": "E-P6-CLOZE-011-MCQ",
+    "subject": "English",
+    "topic": "Grammar Cloze",
+    "skill_tag": "ENG.CLOZE.GRAM.CONNECTOR",
+    "type": "mcq",
+    "text": "Each of the answers __ correct.",
+    "options": [
+      "are",
+      "were",
+      "is",
+      "have been"
+    ],
+    "answer": "is",
+    "solution": "Each → singular verb."
+  },
+  {
+    "id": "E-P6-CLOZE-012-OPEN",
+    "subject": "English",
+    "topic": "Vocabulary Cloze",
+    "skill_tag": "ENG.CLOZE.VOCAB.CONTEXT",
+    "type": "open",
+    "text": "Fill one word: \"Please __ the form before submitting it.\"",
+    "answer": "complete|fill in",
+    "solution": "Accept common variants."
+  },
+  {
+    "id": "E-P6-COMP-015-TABLE",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.COMP.DATA",
+    "type": "mcq",
+    "text": "Refer to the table. Which student scored the highest total?",
+    "table": {
+      "headers": [
+        "Name",
+        "Math",
+        "English",
+        "Science"
+      ],
+      "rows": [
+        [
+          "Ali",
+          "78",
+          "83",
+          "80"
+        ],
+        [
+          "Boon",
+          "82",
+          "75",
+          "85"
+        ],
+        [
+          "Charu",
+          "76",
+          "88",
+          "79"
+        ]
+      ]
+    },
+    "options": [
+      "Ali",
+      "Boon",
+      "Charu",
+      "All equal"
+    ],
+    "answer": "Boon",
+    "solution": "Boon: 82+75+85=242 (highest)."
+  },
+  {
+    "id": "E-P6-COMP-016-TABLE",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.COMP.DATA",
+    "type": "open",
+    "text": "From the same table, what is Charu's English score?",
+    "table": {
+      "headers": [
+        "Name",
+        "Math",
+        "English",
+        "Science"
+      ],
+      "rows": [
+        [
+          "Ali",
+          "78",
+          "83",
+          "80"
+        ],
+        [
+          "Boon",
+          "82",
+          "75",
+          "85"
+        ],
+        [
+          "Charu",
+          "76",
+          "88",
+          "79"
+        ]
+      ]
+    },
+    "answer": "88",
+    "solution": "Read the English column for Charu."
+  },
+  {
+    "id": "E-P6-GRAM-026-MCQ",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.GRAM.DETERMINERS",
+    "type": "mcq",
+    "text": "Choose the correct determiner: \"There are __ apples in the basket.\"",
+    "options": [
+      "much",
+      "many",
+      "little",
+      "a little"
+    ],
+    "answer": "many",
+    "solution": "Countable plural → 'many'."
+  },
+  {
+    "id": "E-P6-GRAM-027-MCQ",
+    "subject": "English",
+    "topic": "Nouns & Pronouns",
+    "skill_tag": "ENG.GRAM.PRONOUN",
+    "type": "mcq",
+    "text": "Either you or your parents must bring __ tickets.",
+    "options": [
+      "your",
+      "yours",
+      "their",
+      "his"
+    ],
+    "answer": "their",
+    "solution": "Agreement with nearer plural 'parents'."
+  },
+  {
+    "id": "E-P6-GRAM-028-OPEN",
+    "subject": "English",
+    "topic": "Verbs & Tenses",
+    "skill_tag": "ENG.GRAM.TENSE.SIMPLE",
+    "type": "open",
+    "text": "Form the adverb from 'careful'.",
+    "answer": "carefully",
+    "solution": "Adjective→adverb."
+  },
+  {
+    "id": "E-P6-GRAM-029-MCQ",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.GRAM.WORDORDER",
+    "type": "mcq",
+    "text": "Choose the best order: \"She __ her homework.\"",
+    "options": [
+      "finished quickly",
+      "quickly finished",
+      "finished quick",
+      "quick finished"
+    ],
+    "answer": "quickly finished",
+    "solution": "Adverb before main verb."
+  },
+  {
+    "id": "E-P6-GRAM-030-OPEN",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.GRAM.NEGATIVE",
+    "type": "open",
+    "text": "Write the negative: \"He understood the lesson.\" (begin with 'He')",
+    "answer": "He did not understand the lesson.|He didn't understand the lesson.",
+    "solution": "Use auxiliary 'did not' with base verb."
+  },
+  {
+    "id": "E-P6-COMP-017-MCQ",
+    "subject": "English",
+    "topic": "Reading Comprehension (Literal)",
+    "skill_tag": "ENG.COMP.FACT",
+    "type": "mcq",
+    "text": "Passage: \"The exhibition opens at 10 a.m. and closes at 6 p.m. Tickets are free for children under 6.\" Who can enter for free?",
+    "options": [
+      "Everyone",
+      "Adults",
+      "Children under 6",
+      "Students only"
+    ],
+    "answer": "Children under 6",
+    "solution": "Stated detail."
+  },
+  {
+    "id": "E-P6-COMP-018-OPEN",
+    "subject": "English",
+    "topic": "Reading Comprehension (Inferential)",
+    "skill_tag": "ENG.COMP.INFER",
+    "type": "open",
+    "text": "Passage: \"Lina left her umbrella on the bus again.\" What does 'again' suggest?",
+    "answer": "it happened before|she has done it before",
+    "solution": "Inference from adverb 'again'."
+  },
+  {
+    "id": "E-P6-CLOZE-013-MCQ",
+    "subject": "English",
+    "topic": "Vocabulary Cloze",
+    "skill_tag": "ENG.CLOZE.VOCAB.CONTEXT",
+    "type": "mcq",
+    "text": "The teacher gave us a __ to finish by Friday.",
+    "options": [
+      "mission",
+      "assignment",
+      "permission",
+      "resignation"
+    ],
+    "answer": "assignment",
+    "solution": "Context vocabulary."
+  },
+  {
+    "id": "E-P6-CLOZE-014-MCQ",
+    "subject": "English",
+    "topic": "Grammar Cloze",
+    "skill_tag": "ENG.CLOZE.GRAM.CONNECTOR",
+    "type": "mcq",
+    "text": "Hardly __ I reached home when it started to rain.",
+    "options": [
+      "had",
+      "have",
+      "did",
+      "was"
+    ],
+    "answer": "had",
+    "solution": "Inversion pattern with 'hardly' → past perfect."
+  },
+  {
+    "id": "E-P6-PUNC-005-MCQ",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.GRAM.PUNC.COMMA",
+    "type": "mcq",
+    "text": "Choose the correct punctuation: \"We need the following items __ pencils, erasers and rulers.\"",
+    "options": [
+      ";",
+      "—",
+      ":",
+      ","
+    ],
+    "answer": ":",
+    "solution": "Colon introduces a list."
+  },
+  {
+    "id": "E-P6-PUNC-006-OPEN",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.GRAM.PUNC.COMMA",
+    "type": "open",
+    "text": "Capitalise where needed: \"we visited singapore last june.\"",
+    "answer": "We visited Singapore last June.",
+    "solution": "Capitalize first word, proper noun, month."
+  },
+  {
+    "id": "E-P6-EDIT-003-OPEN",
+    "subject": "English",
+    "topic": "Editing (Spelling, Grammar, Punctuation)",
+    "skill_tag": "ENG.EDIT.GRAM",
+    "type": "open",
+    "text": "Fix the wrong word only: \"Please borrow me your pen.\" (replace the incorrect word)",
+    "answer": "lend",
+    "solution": "Use 'lend me' not 'borrow me'."
+  },
+  {
+    "id": "E-P6-EDIT-004-OPEN",
+    "subject": "English",
+    "topic": "Editing (Spelling, Grammar, Punctuation)",
+    "skill_tag": "ENG.EDIT.GRAM",
+    "type": "open",
+    "text": "Correct the preposition: \"She is good in math.\" (replace only the preposition)",
+    "answer": "at",
+    "solution": "Fixed phrase: 'good at'."
+  },
+  {
+    "id": "E-P6-SYNTH-009-OPEN",
+    "subject": "English",
+    "topic": "Synthesis & Transformation",
+    "skill_tag": "ENG.SYNTRANS.REWRITE.CONJ",
+    "type": "open",
+    "text": "Use 'had' (causative): \"The mechanic repaired our car.\" (Begin with \"We had...\")",
+    "answer": "We had our car repaired by the mechanic.|We had the mechanic repair our car.",
+    "solution": "Causative structure."
+  },
+  {
+    "id": "E-P6-SYNTH-010-OPEN",
+    "subject": "English",
+    "topic": "Synthesis & Transformation",
+    "skill_tag": "ENG.SYNTRANS.REWRITE.CONJ",
+    "type": "open",
+    "text": "Begin with 'Despite': \"It was raining. They continued the game.\"",
+    "answer": "Despite the rain, they continued the game.",
+    "solution": "Use the noun after 'Despite'."
+  },
+  {
+    "id": "E-P6-COMP-019-MCQ",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.COMP.PREDICT",
+    "type": "mcq",
+    "text": "Passage: \"After forgetting his lines once, Ken practised every night.\" What will Ken most likely do next time?",
+    "options": [
+      "forget again",
+      "refuse to act",
+      "perform better",
+      "quit the club"
+    ],
+    "answer": "perform better",
+    "solution": "Prediction from effort."
+  },
+  {
+    "id": "E-P6-COMP-020-OPEN",
+    "subject": "English",
+    "topic": "Sentence Structure & Punctuation",
+    "skill_tag": "ENG.COMP.REFERENCE",
+    "type": "open",
+    "text": "Sentence: \"When Lina spoke to Hana, she smiled.\" Who is 'she' most likely referring to? (answer one name)",
+    "answer": "Lina|Hana",
+    "solution": "Ambiguous; accept either."
+  }
+]

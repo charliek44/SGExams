@@ -1,0 +1,786 @@
+[
+  {
+    "id": "M-P6-FRAC-001-OPEN",
+    "subject": "Math",
+    "topic": "Fractions",
+    "skill_tag": "MATH.FRA.ADD_SUB",
+    "type": "open",
+    "text": "Add 3/4 and 2/5. Give your answer as a simplified fraction.",
+    "answer": "23/20|1 3/20",
+    "solution": "LCM of 4 and 5 is 20. 3/4 = 15/20, 2/5 = 8/20. Sum = 23/20 = 1 3/20.",
+    "comments": "Reviewed but not sure of level"
+  },
+  {
+    "id": "M-P5-FRAC-002-MCQ",
+    "subject": "Math",
+    "topic": "Fractions",
+    "skill_tag": "MATH.FRA.ADD_SUB",
+    "type": "mcq",
+    "text": "Subtract 3/10 from 7/8. Which is correct?",
+    "options": [
+      "11/40",
+      "23/40",
+      "31/40",
+      "33/40"
+    ],
+    "answer": "23/40",
+    "solution": "LCM = 40. 7/8=35/40, 3/10=12/40. 35–12=23/40.",
+    "comments": "Reviewed but not sure of level"
+  },
+  {
+    "id": "M-P6-FRAC-003-MCQ",
+    "subject": "Math",
+    "topic": "Fractions",
+    "skill_tag": "MATH.FRA.SIMPLIFY",
+    "type": "mcq",
+    "text": "Simplify: 24/36",
+    "options": [
+      "2/3",
+      "4/6",
+      "6/9",
+      "12/18"
+    ],
+    "answer": "2/3",
+    "solution": "Divide numerator and denominator by 12 → 2/3."
+  },
+  {
+    "id": "M-P6-FRAC-004-OPEN",
+    "subject": "Math",
+    "topic": "Fractions",
+    "skill_tag": "MATH.FRA.SIMPLIFY",
+    "type": "open",
+    "text": "Convert 17/5 to a mixed number.",
+    "answer": "3 2/5",
+    "solution": "17 ÷ 5 = 3 remainder 2, so 3 2/5."
+  },
+  {
+    "id": "M-P6-FRAC-005-OPEN",
+    "subject": "Math",
+    "topic": "Fractions",
+    "skill_tag": "MATH.FRA.SIMPLIFY",
+    "type": "open",
+    "text": "A recipe needs 3/4 cup of sugar. You only have 2/3 of a cup. How much more sugar is needed?",
+    "answer": "1/12",
+    "solution": "Find LCM of 4 and 3 = 12. 3/4 = 9/12, 2/3 = 8/12. Difference = 1/12."
+  },
+  {
+    "id": "M-P6-FRAC-006-MCQ",
+    "subject": "Math",
+    "topic": "Fractions",
+    "skill_tag": "MATH.FRA.ADD_SUB",
+    "type": "mcq",
+    "text": "What is 5/8 + 7/12?",
+    "options": [
+      "29/24",
+      "31/24",
+      "37/24",
+      "41/24"
+    ],
+    "answer": "29/24",
+    "solution": "LCM of 8 and 12 = 24. 5/8 = 15/24, 7/12 = 14/24. Total = 29/24."
+  },
+  {
+    "id": "M-P6-RATIO-001-OPEN",
+    "subject": "Math",
+    "topic": "Ratio",
+    "skill_tag": "MATH.RATIO.PART_WHOLE",
+    "type": "open",
+    "text": "The ratio of red to blue marbles is 5:7. If there are 96 marbles, how many are blue?",
+    "answer": "56",
+    "solution": "5+7=12 parts. 96÷12=8 per part. Blue=7×8=56."
+  },
+  {
+    "id": "M-P6-RATIO-002-MCQ",
+    "subject": "Math",
+    "topic": "Ratio",
+    "skill_tag": "MATH.RATIO.SIMPLE",
+    "type": "mcq",
+    "text": "Simplify the ratio 84:126.",
+    "options": [
+      "2:3",
+      "3:4",
+      "4:5",
+      "5:6"
+    ],
+    "answer": "2:3",
+    "solution": "Divide both by 42. 84÷42=2, 126÷42=3. Ratio=2:3."
+  },
+  {
+    "id": "M-P6-RATIO-003-MCQ",
+    "subject": "Math",
+    "topic": "Ratio",
+    "skill_tag": "MATH.RATIO.PART_WHOLE",
+    "type": "mcq",
+    "text": "The ratio of boys to girls in a hall is 7:5. If there are 180 pupils, how many are girls?",
+    "options": [
+      "70",
+      "75",
+      "90",
+      "100"
+    ],
+    "answer": "75",
+    "solution": "7+5=12 parts. 180/12=15. Girls = 5×15=75."
+  },
+  {
+    "id": "M-P6-RATIO-004-MCQ",
+    "subject": "Math",
+    "topic": "Ratio",
+    "skill_tag": "MATH.RATIO.SIMPLE",
+    "type": "mcq",
+    "text": "Simplify the ratio 36:60.",
+    "options": [
+      "3:5",
+      "6:10",
+      "12:20",
+      "18:30"
+    ],
+    "answer": "3:5",
+    "solution": "Divide both numbers by 12 → 3:5."
+  },
+  {
+    "id": "M-P6-RATIO-005-OPEN",
+    "subject": "Math",
+    "topic": "Ratio",
+    "skill_tag": "MATH.RATIO.PART_WHOLE",
+    "type": "open",
+    "text": "The ratio of cats to dogs is 2:5. If there are 35 animals in total, how many are cats?",
+    "answer": "10",
+    "solution": "Total parts = 7. Each part = 35 ÷ 7 = 5. Cats = 2 × 5 = 10."
+  },
+  {
+    "id": "M-P6-PERCENT-001-OPEN",
+    "subject": "Math",
+    "topic": "Percentage",
+    "skill_tag": "MATH.WN.FOUR_OPS",
+    "type": "open",
+    "text": "A book cost $50. Its price increased by 12%. What is the new price?",
+    "answer": "56",
+    "solution": "12% of 50 = 6. New price = 50+6=56."
+  },
+  {
+    "id": "M-P6-PERCENT-002-MCQ",
+    "subject": "Math",
+    "topic": "Percentage",
+    "skill_tag": "MATH.WN.FOUR_OPS",
+    "type": "mcq",
+    "text": "A shirt was sold at $64 after a 20% discount. What was its original price?",
+    "options": [
+      "70",
+      "75",
+      "78",
+      "80"
+    ],
+    "answer": "80",
+    "solution": "Discounted 80% = 64. Original=64÷0.8=80."
+  },
+  {
+    "id": "M-P6-PERCENT-003-MCQ",
+    "subject": "Math",
+    "topic": "Percentage",
+    "skill_tag": "MATH.WN.FOUR_OPS",
+    "type": "mcq",
+    "text": "A shirt costs $40. During a sale, the price is increased by 10%. What is the new price?",
+    "options": [
+      "$42",
+      "$44",
+      "$45",
+      "$48"
+    ],
+    "answer": "$44",
+    "solution": "10% of 40 = 4, so 40 + 4 = $44."
+  },
+  {
+    "id": "M-P6-PERCENT-004-OPEN",
+    "subject": "Math",
+    "topic": "Percentage",
+    "skill_tag": "MATH.WN.FOUR_OPS",
+    "type": "open",
+    "text": "The price of a bag decreased from $120 to $90. What is the percentage decrease?",
+    "answer": "25%",
+    "solution": "Decrease = 120 - 90 = 30. 30/120 = 0.25 → 25%."
+  },
+  {
+    "id": "M-P6-PERCENT-005-OPEN",
+    "subject": "Math",
+    "topic": "Percentage",
+    "skill_tag": "MATH.WN.FOUR_OPS",
+    "type": "open",
+    "text": "A TV was sold for $540 after a 10% discount. What was the original price?",
+    "answer": "600",
+    "solution": "540 = 90%. 540 ÷ 0.9 = 600."
+  },
+  {
+    "id": "M-P6-PERCENT-006-MCQ",
+    "subject": "Math",
+    "topic": "Percentage",
+    "skill_tag": "MATH.WN.FOUR_OPS",
+    "type": "mcq",
+    "text": "A bag costs $120. Its price is increased by 15%. What is the new price?",
+    "options": [
+      "130",
+      "135",
+      "138",
+      "140"
+    ],
+    "answer": "138",
+    "solution": "15% of 120 = 18. 120 + 18 = 138."
+  },
+  {
+    "id": "M-P6-DEC-001-OPEN",
+    "subject": "Math",
+    "topic": "Decimals",
+    "skill_tag": "MATH.DEC.MUL_DIV_BY10_100",
+    "type": "open",
+    "text": "Multiply 2.34 by 0.6.",
+    "answer": "1.404",
+    "solution": "2.34×0.6=1.404."
+  },
+  {
+    "id": "M-P6-DEC-002-MCQ",
+    "subject": "Math",
+    "topic": "Decimals",
+    "skill_tag": "MATH.DEC.MUL_DIV_BY10_100",
+    "type": "mcq",
+    "text": "What is 15.75 ÷ 0.25?",
+    "options": [
+      "63",
+      "62",
+      "60",
+      "65"
+    ],
+    "answer": "63",
+    "solution": "15.75÷0.25=15.75×4=63."
+  },
+  {
+    "id": "M-P6-DEC-003-MCQ",
+    "subject": "Math",
+    "topic": "Decimals",
+    "skill_tag": "MATH.DEC.MUL_DIV_BY10_100",
+    "type": "mcq",
+    "text": "Multiply: 2.4 × 0.5",
+    "options": [
+      "1.12",
+      "1.2",
+      "1.25",
+      "1.3"
+    ],
+    "answer": "1.2",
+    "solution": "2.4 × 0.5 = 1.2."
+  },
+  {
+    "id": "M-P6-DEC-004-OPEN",
+    "subject": "Math",
+    "topic": "Decimals",
+    "skill_tag": "MATH.DEC.MUL_DIV_BY10_100",
+    "type": "open",
+    "text": "Divide 6.3 by 0.9",
+    "answer": "7",
+    "solution": "6.3 ÷ 0.9 = 7."
+  },
+  {
+    "id": "M-P6-DEC-005-OPEN",
+    "subject": "Math",
+    "topic": "Decimals",
+    "skill_tag": "MATH.DEC.PLACEVALUE",
+    "type": "open",
+    "text": "Multiply 2.45 by 0.6.",
+    "answer": "1.47",
+    "solution": "2.45 × 0.6 = 1.47."
+  },
+  {
+    "id": "M-P6-DEC-006-MCQ",
+    "subject": "Math",
+    "topic": "Decimals",
+    "skill_tag": "MATH.DEC.ADD_SUB",
+    "type": "mcq",
+    "text": "A rope is 7.5 m long. If it is cut into 5 equal parts, how long is each part?",
+    "options": [
+      "1.25 m",
+      "1.3 m",
+      "1.4 m",
+      "1.5 m"
+    ],
+    "answer": "1.5 m",
+    "solution": "7.5 ÷ 5 = 1.5 m."
+  },
+  {
+    "id": "M-P6-GEO-001-OPEN",
+    "subject": "Math",
+    "topic": "Geometry",
+    "skill_tag": "MATH.ANG.FIND_UNKNOWN",
+    "type": "open",
+    "text": "In a triangle, two angles are 45° and 85°. Find the third angle.",
+    "answer": "50",
+    "solution": "Sum=180°. 45+85=130. 180–130=50°."
+  },
+  {
+    "id": "M-P6-GEO-002-MCQ",
+    "subject": "Math",
+    "topic": "Geometry",
+    "skill_tag": "MATH.AREA.TRI",
+    "type": "mcq",
+    "text": "Find the area of a triangle with base 12 cm and height 8 cm.",
+    "options": [
+      "48",
+      "72",
+      "96",
+      "100"
+    ],
+    "answer": "48",
+    "solution": "Area=½×12×8=48."
+  },
+  {
+    "id": "M-P6-GEO-003-MCQ",
+    "subject": "Math",
+    "topic": "Geometry",
+    "skill_tag": "MATH.ANG.FIND_UNKNOWN",
+    "type": "mcq",
+    "text": "An isosceles triangle has two equal angles of 70°. What is the third angle?",
+    "options": [
+      "30°",
+      "35°",
+      "40°",
+      "45°"
+    ],
+    "answer": "40°",
+    "solution": "Sum of angles = 180°. 70 + 70 = 140°. Third = 180 – 140 = 40°."
+  },
+  {
+    "id": "M-P6-GEO-004-OPEN",
+    "subject": "Math",
+    "topic": "Geometry",
+    "skill_tag": "MATH.AREA.RECT",
+    "type": "open",
+    "text": "Find the area of a rectangle with length 15 cm and breadth 12 cm.",
+    "answer": "180",
+    "solution": "Area = l × b = 15 × 12 = 180 cm²."
+  },
+  {
+    "id": "M-P6-GEO-005-MCQ",
+    "subject": "Math",
+    "topic": "Geometry",
+    "skill_tag": "MATH.ANG.FIND_UNKNOWN",
+    "type": "mcq",
+    "text": "An angle measures 65°. What is its complement?",
+    "options": [
+      "25°",
+      "35°",
+      "45°",
+      "55°"
+    ],
+    "answer": "25°",
+    "solution": "Complement = 90° - 65° = 25°."
+  },
+  {
+    "id": "M-P6-GEO-006-OPEN",
+    "subject": "Math",
+    "topic": "Geometry",
+    "skill_tag": "MATH.ANG.FIND_UNKNOWN",
+    "type": "open",
+    "text": "A triangle has angles 45° and 55°. Find the third angle.",
+    "answer": "80°",
+    "solution": "Sum of angles = 180°. Third angle = 180 - (45+55) = 80°."
+  },
+  {
+    "id": "M-P6-ALG-001-OPEN",
+    "subject": "Math",
+    "topic": "Algebra",
+    "skill_tag": "MATH.ALG.SOLVE_1STEP",
+    "type": "open",
+    "text": "Solve: 3x + 5 = 20. What is x?",
+    "answer": "5",
+    "solution": "3x=15, x=5."
+  },
+  {
+    "id": "M-P6-ALG-002-MCQ",
+    "subject": "Math",
+    "topic": "Algebra",
+    "skill_tag": "MATH.ALG.EVAL_EXP",
+    "type": "mcq",
+    "text": "Which expression is equivalent to 2(x+3)?",
+    "options": [
+      "2x+3",
+      "2x+6",
+      "x+6",
+      "2x+9"
+    ],
+    "answer": "2x+6",
+    "solution": "Expand: 2×x + 2×3 = 2x+6."
+  },
+  {
+    "id": "M-P6-ALG-003-MCQ",
+    "subject": "Math",
+    "topic": "Algebra",
+    "skill_tag": "MATH.ALG.SOLVE_1STEP",
+    "type": "mcq",
+    "text": "Solve for x: 2x + 5 = 17",
+    "options": [
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 12"
+    ],
+    "answer": "x = 6",
+    "solution": "2x = 12 → x = 6."
+  },
+  {
+    "id": "M-P6-ALG-004-OPEN",
+    "subject": "Math",
+    "topic": "Algebra",
+    "skill_tag": "MATH.ALG.EVAL_EXP",
+    "type": "open",
+    "text": "Simplify: 3a + 4a - 2a",
+    "answer": "5a",
+    "solution": "3a + 4a - 2a = 5a."
+  },
+  {
+    "id": "M-P6-AREA-001-OPEN",
+    "subject": "Math",
+    "topic": "Area & Volume",
+    "skill_tag": "MATH.AREA.RECT",
+    "type": "open",
+    "text": "Find the area of a rectangle with length 7 cm and breadth 4 cm.",
+    "answer": "28",
+    "solution": "7×4=28 cm²."
+  },
+  {
+    "id": "M-P6-AREA-002-MCQ",
+    "subject": "Math",
+    "topic": "Area & Volume",
+    "skill_tag": "MATH.VOL.CUBE_CUBOID",
+    "type": "mcq",
+    "text": "A cube has edge length 5 cm. What is its volume?",
+    "options": [
+      "25",
+      "75",
+      "100",
+      "125"
+    ],
+    "answer": "125",
+    "solution": "5³=125 cm³."
+  },
+  {
+    "id": "M-P6-MEAS-001-MCQ",
+    "subject": "Math",
+    "topic": "Measurement",
+    "skill_tag": "MATH.AREA.RECT",
+    "type": "mcq",
+    "text": "The area of a rectangle is 72 cm². If its length is 9 cm, what is its breadth?",
+    "options": [
+      "6 cm",
+      "7 cm",
+      "8 cm",
+      "9 cm"
+    ],
+    "answer": "8 cm",
+    "solution": "Area = length × breadth → 72 ÷ 9 = 8."
+  },
+  {
+    "id": "M-P6-MEAS-002-OPEN",
+    "subject": "Math",
+    "topic": "Measurement",
+    "skill_tag": "MATH.VOL.CUBE_CUBOID",
+    "type": "open",
+    "text": "A cuboid has dimensions 5 cm × 4 cm × 3 cm. Find its volume.",
+    "answer": "60 cm³",
+    "solution": "Volume = 5 × 4 × 3 = 60 cm³."
+  },
+  {
+    "id": "M-P6-MEAS-003-MCQ",
+    "subject": "Math",
+    "topic": "Measurement",
+    "skill_tag": "MATH.MEAS.UNIT_CONV",
+    "type": "mcq",
+    "text": "Convert 3.5 km to metres.",
+    "options": [
+      "2500 m",
+      "3000 m",
+      "3500 m",
+      "4000 m"
+    ],
+    "answer": "3500 m",
+    "solution": "1 km = 1000 m, so 3.5 × 1000 = 3500 m."
+  },
+  {
+    "id": "M-P6-SPEED-001-OPEN",
+    "subject": "Math",
+    "topic": "Speed",
+    "skill_tag": "MATH.SPEED.DST_TIME",
+    "type": "open",
+    "text": "A car travels 180 km in 3 hours. What is its average speed?",
+    "answer": "60",
+    "solution": "Speed=Distance÷Time=180÷3=60 km/h."
+  },
+  {
+    "id": "M-P6-SPEED-002-MCQ",
+    "subject": "Math",
+    "topic": "Speed",
+    "skill_tag": "MATH.SPEED.DST_TIME",
+    "type": "mcq",
+    "text": "If a runner covers 400 m in 50 seconds, what is his speed in m/s?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": "8",
+    "solution": "400÷50=8 m/s."
+  },
+  {
+    "id": "M-P6-SPEED-003-MCQ",
+    "subject": "Math",
+    "topic": "Speed",
+    "skill_tag": "MATH.SPEED.DST_TIME",
+    "type": "mcq",
+    "text": "A car travels 180 km in 3 hours. What is its average speed?",
+    "options": [
+      "50 km/h",
+      "55 km/h",
+      "60 km/h",
+      "65 km/h"
+    ],
+    "answer": "60 km/h",
+    "solution": "Speed = Distance ÷ Time = 180 ÷ 3 = 60 km/h."
+  },
+  {
+    "id": "M-P6-SPEED-004-OPEN",
+    "subject": "Math",
+    "topic": "Speed",
+    "skill_tag": "MATH.SPEED.DST_TIME",
+    "type": "open",
+    "text": "A man runs at 8 km/h for 2.5 hours. How far does he run?",
+    "answer": "20",
+    "solution": "Distance = speed × time = 8 × 2.5 = 20 km."
+  },
+  {
+    "id": "M-P6-SPEED-005-MCQ",
+    "subject": "Math",
+    "topic": "Speed",
+    "skill_tag": "MATH.SPEED.DST_TIME",
+    "type": "mcq",
+    "text": "A car travels 180 km in 3 hours. What is its average speed?",
+    "options": [
+      "50 km/h",
+      "55 km/h",
+      "60 km/h",
+      "65 km/h"
+    ],
+    "answer": "60 km/h",
+    "solution": "Speed = distance ÷ time = 180 ÷ 3 = 60 km/h."
+  },
+  {
+    "id": "M-P6-SPEED-006-OPEN",
+    "subject": "Math",
+    "topic": "Speed",
+    "skill_tag": "MATH.SPEED.DST_TIME",
+    "type": "open",
+    "text": "A train travels at 80 km/h. How long will it take to travel 200 km?",
+    "answer": "2.5 hours",
+    "solution": "Time = distance ÷ speed = 200 ÷ 80 = 2.5 hours."
+  },
+  {
+    "id": "M-P6-STAT-001-MCQ",
+    "subject": "Math",
+    "topic": "Statistics",
+    "skill_tag": "MATH.DATA.READ",
+    "type": "mcq",
+    "text": "The table shows the number of books read by 4 students in June. Who read the most?",
+    "table": {
+      "headers": [
+        "Student",
+        "Books"
+      ],
+      "rows": [
+        [
+          "Ali",
+          "6"
+        ],
+        [
+          "Ben",
+          "9"
+        ],
+        [
+          "Cindy",
+          "5"
+        ],
+        [
+          "Dana",
+          "7"
+        ]
+      ]
+    },
+    "options": [
+      "Ali",
+      "Ben",
+      "Cindy",
+      "Dana"
+    ],
+    "answer": "Ben",
+    "solution": "Ben read 9 books, the highest."
+  },
+  {
+    "id": "M-P6-STAT-002-OPEN",
+    "subject": "Math",
+    "topic": "Statistics",
+    "skill_tag": "MATH.DATA.READ",
+    "type": "open",
+    "text": "The table shows the daily rainfall (mm) over 3 days: Mon=12, Tue=15, Wed=9. What is the total rainfall?",
+    "answer": "36",
+    "solution": "12+15+9=36 mm."
+  },
+  {
+    "id": "M-P6-STAT-003-OPEN",
+    "subject": "Math",
+    "topic": "Statistics",
+    "skill_tag": "MATH.AVG.MEAN_BASIC",
+    "type": "open",
+    "text": "The table shows the marks of 4 students. What is the average mark?",
+    "table": {
+      "headers": [
+        "Student",
+        "Mark"
+      ],
+      "rows": [
+        [
+          "Ali",
+          "65"
+        ],
+        [
+          "Bala",
+          "72"
+        ],
+        [
+          "Chen",
+          "83"
+        ],
+        [
+          "Devi",
+          "80"
+        ]
+      ]
+    },
+    "answer": "75",
+    "solution": "(65+72+83+80) ÷ 4 = 300 ÷ 4 = 75."
+  },
+  {
+    "id": "M-P6-STAT-004-MCQ",
+    "subject": "Math",
+    "topic": "Statistics",
+    "skill_tag": "MATH.DATA.READ",
+    "type": "mcq",
+    "text": "The numbers are 4, 6, 6, 8, 10, 10, 10, 12. What is the mode?",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "answer": "10",
+    "solution": "10 occurs 3 times, the most frequent."
+  },
+  {
+    "id": "M-P6-STAT-005-MCQ",
+    "subject": "Math",
+    "topic": "Statistics",
+    "skill_tag": "MATH.DATA.READ",
+    "type": "mcq",
+    "text": "The numbers are 5, 8, 5, 6, 7, 5. What is the mode?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "5",
+    "solution": "Mode = most frequent value = 5."
+  },
+  {
+    "id": "M-P6-STAT-006-OPEN",
+    "subject": "Math",
+    "topic": "Statistics",
+    "skill_tag": "MATH.AVG.MEAN_BASIC",
+    "type": "open",
+    "text": "Find the mean of 4, 6, 8, 10.",
+    "answer": "7",
+    "solution": "Mean = (4+6+8+10)/4 = 28/4 = 7."
+  },
+  {
+    "id": "M-P6-HEU-001-OPEN",
+    "subject": "Math",
+    "topic": "Heuristics",
+    "skill_tag": "MATH.ALG.SOLVE_1STEP",
+    "type": "open",
+    "text": "A basket has 15 more apples than oranges. If there are 75 fruits in total, how many apples are there?",
+    "answer": "45",
+    "solution": "Let oranges = x, apples = x+15. Total = 2x+15=75. Solve: 2x=60, x=30, apples=45."
+  },
+  {
+    "id": "M-P6-HEU-002-MCQ",
+    "subject": "Math",
+    "topic": "Heuristics",
+    "skill_tag": "MATH.ALG.SOLVE_1STEP",
+    "type": "mcq",
+    "text": "Ali had 50 marbles, Bala had 20 marbles. After Ali gave some to Bala, both had the same number. How many marbles did Ali give Bala?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "answer": "15",
+    "solution": "Difference = 30. To balance, give half = 15."
+  },
+  {
+    "id": "M-P6-MIX-001-MCQ",
+    "subject": "Math",
+    "topic": "Mixed Problems",
+    "skill_tag": "MATH.WN.FOUR_OPS",
+    "type": "mcq",
+    "text": "A shop sells pencils at 3 for $2. How much will 15 pencils cost?",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "12"
+    ],
+    "answer": "10",
+    "solution": "15 pencils ÷3=5 groups. 5×$2=10."
+  },
+  {
+    "id": "M-P6-MIX-002-OPEN",
+    "subject": "Math",
+    "topic": "Mixed Problems",
+    "skill_tag": "MATH.WN.FOUR_OPS",
+    "type": "open",
+    "text": "A tank is 3/4 full with 120 litres of water. What is its capacity when full?",
+    "answer": "160",
+    "solution": "3/4 = 120. 1/4=40. Full=160."
+  },
+  {
+    "id": "M-P6-MIX-003-OPEN",
+    "subject": "Math",
+    "topic": "Mixed",
+    "skill_tag": "MATH.WN.FOUR_OPS",
+    "type": "open",
+    "text": "A tank holds 250 litres. Water flows in at 12 litres/min. How long to fill the tank?",
+    "answer": "20.83",
+    "solution": "250 ÷ 12 ≈ 20.83 minutes."
+  },
+  {
+    "id": "M-P6-MIX-004-MCQ",
+    "subject": "Math",
+    "topic": "Mixed",
+    "skill_tag": "MATH.TIME.DURATION",
+    "type": "mcq",
+    "text": "A movie starts at 6:45 pm and ends at 9:05 pm. How long is it?",
+    "options": [
+      "2h 10min",
+      "2h 15min",
+      "2h 20min",
+      "2h 25min"
+    ],
+    "answer": "2h 20min",
+    "solution": "From 6:45 to 9:05 = 2 hours 20 minutes."
+  }
+]

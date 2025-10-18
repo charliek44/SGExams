@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <title>PSLE Practice</title>
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js');
+      });
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>PSLE Quiz</h1>
+    <nav>
+      <button id="btnHome">Home</button>
+      <button id="btnStats">Progress</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home -->
+    <section id="homeView" class="view active">
+      <h2>Start a Quiz</h2>
+      <div class="row">
+        <label>Subject:</label>
+        <select id="subjectSelect">
+          <option value="all">All</option>
+          <option value="Math">Math</option>
+          <option value="English">English</option>
+          <option value="Science">Science</option>
+        </select>
+      </div>
+<div class="row">
+  <label>Number of Questions:</label>
+  <input id="quizLength" type="number" min="1" max="50" value="10" style="width:80px;">
+  <span id="maxInfo" style="margin-left:10px; color:#666;"></span>
+</div>
+      <button id="startBtn">Start Quiz</button>
+      <p class="help">Tip: Install this as an app: Share → “Add to Home Screen”.</p>
+    </section>
+
+    <!-- Quiz -->
+    <section id="quizView" class="view">
+      <div id="qMeta"></div>
+      <div id="qText"></div>
+      <div id="qOptions"></div>
+      <div id="qInputWrap" class="row">
+        <input id="qInput" placeholder="Type your answer" />
+      </div>
+      <div class="row">
+        <button id="checkBtn">Check</button>
+        <button id="nextBtn" disabled>Next</button>
+      </div>
+      <div id="feedback"></div>
+    </section>
+
+    <!-- Summary -->
+    <section id="summaryView" class="view" style="display:none;"></section>
+
+    <!-- Stats -->
+    <section id="statsView" class="view">
+      <h2>Your Progress</h2>
+      <div id="overall"></div>
+      <table id="skillTable">
+        <thead>
+          <tr><th>Skill</th><th>Correct</th><th>Total</th><th>Accuracy</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <button id="resetBtn">Reset Progress</button>
+    </section>
+  </main>
+
+  <footer>
+    <small>PSLE Practice MVP • Works offline • iPhone/iPad friendly</small>
+  </footer>
+
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+[
+  {
+    "id": "M-P6-001",
+    "subject": "Math",
+    "skill_tag": "MATH.RATIO.PPW",
+    "type": "open",
+    "text": "The ratio of red beads to blue beads is 3:5. If there are 96 beads in total, how many are blue?",
+    "options": [],
+    "answer": "60",
+    "hints": "Total parts = 3+5. One part = 96/8. Blue = 5 parts.",
+    "solution": "3+5=8 parts; 96/8=12; blue=5\u00d712=60."
+  },
+  {
+    "id": "M-P6-002",
+    "subject": "Math",
+    "skill_tag": "MATH.FRA.ADD_SUB",
+    "type": "open",
+    "text": "Madeline used 3/5 m of ribbon and had 7/10 m left. How long was the ribbon at first? (in metres)",
+    "options": [],
+    "answer": "1.3|13/10|1 3/10",
+    "hints": "Find a common denominator (10). Add used and left.",
+    "solution": "3/5=6/10; 6/10+7/10=13/10=1.3 m."
+  },
+  {
+    "id": "E-P6-001",
+    "subject": "English",
+    "skill_tag": "ENG.GRAM.SVA",
+    "type": "mcq",
+    "text": "Neither the boys nor their coach __ going to the finals this year.",
+    "options": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "hints": "The noun closest to the verb governs agreement.",
+    "solution": "Nearest subject is 'coach' (singular) \u2192 'is'."
+  },
+  {
+    "id": "E-P6-002",
+    "subject": "English",
+    "skill_tag": "ENG.CLOZE.PREP",
+    "type": "open",
+    "text": "She insisted ___ paying for the meal even though we offered.",
+    "options": [],
+    "answer": "on",
+    "hints": "Common collocation: insist ___ doing something.",
+    "solution": "Fixed phrase: insist on + gerund."
+  },
+  {
+    "id": "SCI-P6-001",
+    "subject": "Science",
+    "skill_tag": "SCI.ELEC.SP",
+    "type": "mcq",
+    "text": "Which setup keeps the bulb brightest when adding more bulbs?",
+    "options": [
+      "Series",
+      "Parallel"
+    ],
+    "answer": "Parallel",
+    "hints": "Think about potential difference across each bulb.",
+    "solution": "In parallel, each bulb receives full voltage."
+  },
+  {
+  "id": "M-P6-003",
+  "subject": "Math",
+  "skill_tag": "MATH.PERCENT",
+  "type": "open",
+  "text": "What is 20% of 250?",
+  "options": [],
+  "answer": "50",
+  "hints": "Find 10% first, then double it.",
+  "solution": "10% = 25, so 20% = 50."
+},
+{
+  "id": "ENG-P6-004",
+  "subject": "English",
+  "skill_tag": "ENG.VOCAB",
+  "type": "mcq",
+  "text": "Choose the correct synonym for 'happy'.",
+  "options": ["sad", "joyful", "angry", "tired"],
+  "answer": "joyful",
+  "hints": "Think of words that mean the same.",
+  "solution": "'Joyful' means happy."
+},
+{
+  "id": "SCI-P6-002",
+  "subject": "Science",
+  "skill_tag": "SCI.PLANTS",
+  "type": "open",
+  "text": "What part of the plant makes food?",
+  "options": [],
+  "answer": "leaf|leaves",
+  "hints": "Think photosynthesis.",
+  "solution": "Leaves make food using sunlight."
+}
+]

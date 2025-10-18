@@ -1,0 +1,453 @@
+{
+  "updated": "2025-09-29",
+  "subjects": {
+    "Math": {
+      "clusters": [
+        {
+          "id": "MATH.CL01",
+          "name": "Data & Problem Solving",
+          "topics": [
+            {
+              "code": "MATH.DATA_&_PROBLEM_SOLVING",
+              "name": "Data & Problem Solving",
+              "levels": [
+                "P3",
+                "P4",
+                "P5",
+                "P6"
+              ],
+              "skills": [
+                "MATH.HEU.BA",
+                "MATH.HEU.EXCESS",
+                "MATH.MIX.MULTISTEP",
+                "MATH.MIXED.TIME",
+                "MATH.MIXED.WORDPROB",
+                "MATH.RATIO.MIX",
+                "MATH.SPEED.BASIC",
+                "MATH.SPEED.DIST",
+                "MATH.SPEED.TIME",
+                "MATH.SPEED.UNIT",
+                "MATH.STAT.MEAN",
+                "MATH.STAT.MODE",
+                "MATH.STAT.TABLE"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "MATH.CL02",
+          "name": "Measurement & Geometry",
+          "topics": [
+            {
+              "code": "MATH.MEASUREMENT_&_GEOMETRY",
+              "name": "Measurement & Geometry",
+              "levels": [
+                "P3",
+                "P4",
+                "P5",
+                "P6"
+              ],
+              "skills": [
+                "MATH.AREA.RECT",
+                "MATH.GEO.ANGLE",
+                "MATH.GEO.ANGLES",
+                "MATH.GEO.AREA",
+                "MATH.MEAS.AREA",
+                "MATH.MEAS.CONVERT",
+                "MATH.MEAS.VOLUME",
+                "MATH.VOL.CUBE"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "MATH.CL03",
+          "name": "Number & Algebra",
+          "topics": [
+            {
+              "code": "MATH.NUMBER_&_ALGEBRA",
+              "name": "Number & Algebra",
+              "levels": [
+                "P3",
+                "P4",
+                "P5",
+                "P6"
+              ],
+              "skills": [
+                "MATH.ALG.EXPRESS",
+                "MATH.ALG.SOLVE",
+                "MATH.DEC.DIV",
+                "MATH.DEC.DIVIDE",
+                "MATH.DEC.MULT",
+                "MATH.DEC.MULTIPLY",
+                "MATH.DEC.PLACEVAL",
+                "MATH.DEC.WORDPROB",
+                "MATH.FRACTIONS.ADD",
+                "MATH.FRACTIONS.MIXED",
+                "MATH.FRACTIONS.SIMPLIFY",
+                "MATH.FRACTIONS.SUB",
+                "MATH.PERCENT.DECREASE",
+                "MATH.PERCENT.INCREASE"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "MATH.CL04",
+          "name": "Other",
+          "topics": [
+            {
+              "code": "MATH.OTHER",
+              "name": "Other",
+              "levels": [
+                "P3",
+                "P4",
+                "P5",
+                "P6"
+              ],
+              "skills": [
+                "MATH.RATIO.PPW",
+                "MATH.RATIO.SIMPLIFY",
+                "MATH.RATIO.WORD"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "English": {
+      "clusters": [
+        {
+          "id": "ENG.CL01",
+          "name": "Reading & Comprehension",
+          "topics": [
+            {
+              "code": "ENG.READING_&_COMPREHENSION",
+              "name": "Reading & Comprehension",
+              "levels": [
+                "P3",
+                "P4",
+                "P5",
+                "P6"
+              ],
+              "skills": [
+                "ENG.COMP.CAUSE",
+                "ENG.COMP.DATA",
+                "ENG.COMP.FACT",
+                "ENG.COMP.INFER",
+                "ENG.COMP.MAINIDEA",
+                "ENG.COMP.PREDICT",
+                "ENG.COMP.PURPOSE",
+                "ENG.COMP.REFERENCE",
+                "ENG.COMP.SEQUENCE",
+                "ENG.COMP.TONE",
+                "ENG.COMP.VOCAB",
+                "ENG.GRAM.COMPARATIVE"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ENG.CL02",
+          "name": "Grammar & Usage",
+          "topics": [
+            {
+              "code": "ENG.GRAMMAR_&_USAGE",
+              "name": "Grammar & Usage",
+              "levels": [
+                "P3",
+                "P4",
+                "P5",
+                "P6"
+              ],
+              "skills": [
+                "ENG.CLOZE.GRAM",
+                "ENG.EDIT.SVA",
+                "ENG.EDIT.TENSE",
+                "ENG.GRAM.ADJECTIVE",
+                "ENG.GRAM.ADVERB",
+                "ENG.GRAM.ARTICLES",
+                "ENG.GRAM.COMPARATIVE",
+                "ENG.GRAM.CONDITIONALS",
+                "ENG.GRAM.CONJUNCTION",
+                "ENG.GRAM.DETERMINERS",
+                "ENG.GRAM.GERUND",
+                "ENG.GRAM.MODAL",
+                "ENG.GRAM.NEGATIVE",
+                "ENG.GRAM.PASSIVE",
+                "ENG.GRAM.PREPOSITION",
+                "ENG.GRAM.PRONOUN",
+                "ENG.GRAM.QUANTIFIERS",
+                "ENG.GRAM.RELCLAUSE",
+                "ENG.GRAM.REPORTED",
+                "ENG.GRAM.SVA",
+                "ENG.GRAM.TAGQ",
+                "ENG.GRAM.TENSE",
+                "ENG.GRAM.WORDFORM",
+                "ENG.GRAM.WORDORDER"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ENG.CL03",
+          "name": "Writing & Editing",
+          "topics": [
+            {
+              "code": "ENG.WRITING_&_EDITING",
+              "name": "Writing & Editing",
+              "levels": [
+                "P3",
+                "P4",
+                "P5",
+                "P6"
+              ],
+              "skills": [
+                "ENG.EDIT.PREPOSITION",
+                "ENG.EDIT.SVA",
+                "ENG.EDIT.TENSE",
+                "ENG.EDIT.WORDCHOICE"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ENG.CL04",
+          "name": "Vocabulary & Word Choice",
+          "topics": [
+            {
+              "code": "ENG.VOCABULARY_&_WORD_CHOICE",
+              "name": "Vocabulary & Word Choice",
+              "levels": [
+                "P3",
+                "P4",
+                "P5",
+                "P6"
+              ],
+              "skills": [
+                "ENG.CLOZE.VOCAB",
+                "ENG.COMP.VOCAB",
+                "ENG.VOCAB.ANTONYM",
+                "ENG.VOCAB.COLLocation",
+                "ENG.VOCAB.CONTEXT",
+                "ENG.VOCAB.IDIOM",
+                "ENG.VOCAB.PHRASAL",
+                "ENG.VOCAB.PROVERB",
+                "ENG.VOCAB.SYNONYM"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ENG.CL05",
+          "name": "Punctuation & Mechanics",
+          "topics": [
+            {
+              "code": "ENG.PUNCTUATION_&_MECHANICS",
+              "name": "Punctuation & Mechanics",
+              "levels": [
+                "P3",
+                "P4",
+                "P5",
+                "P6"
+              ],
+              "skills": [
+                "ENG.PUNC.APOSTROPHE",
+                "ENG.PUNC.CAPITAL",
+                "ENG.PUNC.COLON",
+                "ENG.PUNC.COMMA",
+                "ENG.PUNC.QUOTES",
+                "ENG.PUNC.SEMICOLON"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ENG.CL06",
+          "name": "Synthesis & Inference",
+          "topics": [
+            {
+              "code": "ENG.SYNTHESIS_&_INFERENCE",
+              "name": "Synthesis & Inference",
+              "levels": [
+                "P3",
+                "P4",
+                "P5",
+                "P6"
+              ],
+              "skills": [
+                "ENG.COMP.CAUSE",
+                "ENG.SYNTH.ALTHOUGH",
+                "ENG.SYNTH.BECAUSE",
+                "ENG.SYNTH.CAUSATIVE",
+                "ENG.SYNTH.CONCESSION",
+                "ENG.SYNTH.EMPHASIS",
+                "ENG.SYNTH.NOMINALISE",
+                "ENG.SYNTH.PASSIVE",
+                "ENG.SYNTH.REPORTED",
+                "ENG.SYNTH.SO THAT",
+                "ENG.SYNTH.WHICH"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Science": {
+      "clusters": [
+        {
+          "id": "SCI.CL01",
+          "name": "Forces & Motion",
+          "topics": [
+            {
+              "code": "SCI.FORCES_&_MOTION",
+              "name": "Forces & Motion",
+              "levels": [
+                "P3",
+                "P4",
+                "P5",
+                "P6"
+              ],
+              "skills": [
+                "SCI.INT.FORCE",
+                "SCI.INT.GRAVITY",
+                "SCI.INT.PRESSURE",
+                "SCI.INT.SIMPLEMACH"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "SCI.CL02",
+          "name": "Living Things & Ecosystems",
+          "topics": [
+            {
+              "code": "SCI.LIVING_THINGS_&_ECOSYSTEMS",
+              "name": "Living Things & Ecosystems",
+              "levels": [
+                "P3",
+                "P4",
+                "P5",
+                "P6"
+              ],
+              "skills": [
+                "SCI.CYC.LIFE",
+                "SCI.DIV.ANIMALS",
+                "SCI.DIV.PLANTS",
+                "SCI.ECO.ADAPTS",
+                "SCI.ECO.CONSERVE",
+                "SCI.ECO.DATA",
+                "SCI.ECO.FOODCHAIN",
+                "SCI.ECO.FOODWEB",
+                "SCI.ECO.HABITAT",
+                "SCI.ECO.POLLUTION",
+                "SCI.SYS.PLANT"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "SCI.CL03",
+          "name": "Other",
+          "topics": [
+            {
+              "code": "SCI.OTHER",
+              "name": "Other",
+              "levels": [
+                "P3",
+                "P4",
+                "P5",
+                "P6"
+              ],
+              "skills": [
+                "SCI.CYC.MATTER",
+                "SCI.DIV.ADAPT",
+                "SCI.DIV.CLASSIFY",
+                "SCI.DIV.MATTER",
+                "SCI.DIV.MICRO",
+                "SCI.SYS.CIRC",
+                "SCI.SYS.DIGEST",
+                "SCI.SYS.RESP"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "SCI.CL04",
+          "name": "Physical Science & Energy",
+          "topics": [
+            {
+              "code": "SCI.PHYSICAL_SCIENCE_&_ENERGY",
+              "name": "Physical Science & Energy",
+              "levels": [
+                "P3",
+                "P4",
+                "P5",
+                "P6"
+              ],
+              "skills": [
+                "SCI.ENE.CIRCUIT",
+                "SCI.ENE.CONDUCT",
+                "SCI.ENE.CONVERSION",
+                "SCI.ENE.ELEC",
+                "SCI.ENE.FORMS",
+                "SCI.ENE.RENEW",
+                "SCI.ENE.SAFETY",
+                "SCI.INT.HEAT",
+                "SCI.INT.LIGHT",
+                "SCI.INT.MAGNET",
+                "SCI.INT.SOUND"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "SCI.CL05",
+          "name": "Scientific Inquiry & Skills",
+          "topics": [
+            {
+              "code": "SCI.SCIENTIFIC_INQUIRY_&_SKILLS",
+              "name": "Scientific Inquiry & Skills",
+              "levels": [
+                "P3",
+                "P4",
+                "P5",
+                "P6"
+              ],
+              "skills": [
+                "SCI.INT.DATA",
+                "SCI.METH.ANALYSE",
+                "SCI.METH.CONCLUDE",
+                "SCI.METH.CONTROL",
+                "SCI.METH.DATA",
+                "SCI.METH.GRAPH",
+                "SCI.METH.HYPOTHESIS",
+                "SCI.METH.MEASURE",
+                "SCI.METH.VARIABLES"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "SCI.CL06",
+          "name": "Water & Weather",
+          "topics": [
+            {
+              "code": "SCI.WATER_&_WEATHER",
+              "name": "Water & Weather",
+              "levels": [
+                "P3",
+                "P4",
+                "P5",
+                "P6"
+              ],
+              "skills": [
+                "SCI.CYC.WATER"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

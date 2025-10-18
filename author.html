@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Question Authoring — Visual Editor</title>
+  <style>
+    :root { --accent:#146EB4; --muted:#666; --bg:#fafafa; --card:#fff; }
+    body { font-family: Inter, Roboto, system-ui, Arial; margin: 16px; background:var(--bg); color:#111; }
+    h1 { margin: 0 0 8px 0; font-size:20px; }
+    .top { display:flex; gap:12px; align-items:center; margin-bottom:12px; flex-wrap:wrap; }
+    label { font-size:13px; color:var(--muted); margin-right:6px; }
+    input[type=text], select, input[type=number] { padding:6px 8px; border:1px solid #ddd; border-radius:6px; }
+    #container { display:flex; gap:12px; align-items:flex-start; }
+    .panel { background:var(--card); border-radius:8px; padding:12px; box-shadow:0 1px 2px rgba(0,0,0,0.04); }
+    .left { width:360px; max-height:72vh; overflow:auto; }
+    .right { flex:1; max-height:72vh; overflow:auto; }
+    .q-list { list-style:none; padding:0; margin:8px 0 0 0; }
+    .q-list li { padding:8px; border-radius:6px; margin-bottom:6px; cursor:pointer; display:flex; gap:8px; align-items:center; border:1px solid transparent; }
+    .q-list li:hover { background:#f6fbff; border-color:#e1efff; }
+    .q-list li.active { background:#eaf4ff; border-color:var(--accent); }
+    .meta { font-size:12px; color:var(--muted); }
+    .row { display:flex; gap:8px; margin-bottom:8px; align-items:center; }
+    .col { display:flex; flex-direction:column; gap:6px; }
+    textarea { width:100%; min-height:80px; font-family: monospace; padding:8px; border-radius:6px; border:1px solid #ddd; }
+    input[type=file] { font-size:13px; }
+    button { background:var(--accent); color:white; border:0; padding:8px 10px; border-radius:6px; cursor:pointer; }
+    button.ghost { background:transparent; color:var(--accent); border:1px solid #dbefff; }
+    .muted { color:var(--muted); font-size:13px; }
+    .small { font-size:12px; color:var(--muted); }
+    .flex { display:flex; gap:8px; align-items:center; }
+    .controls { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+    .preview img { max-width:320px; display:block; margin:8px 0; border-radius:6px; }
+    .danger { background:#E4572E; }
+    .success { background:#2FA84F; }
+    .status { margin-top:10px; padding:8px; border-radius:6px; background: #fff; border:1px solid #eee; font-size:13px; }
+    .help { font-size:13px; color:var(--muted); margin-top:6px; }
+    .opt-list { display:flex; flex-direction:column; gap:6px; }
+    .opt-row { display:flex; gap:6px; align-items:center; }
+    .opt-row input { flex:1; }
+    .split { display:flex; gap:8px; }
+    .w-40 { width:40%; }
+    .w-60 { width:60%; }
+    .btn-inline { padding:6px 8px; font-size:13px; background:#f2f6fb; color:var(--accent); border-radius:6px; border:1px solid #e6f0fb; cursor:pointer; }
+  </style>
+</head>
+<body>
+  <h1>PSLE — Question Authoring (Visual)</h1>
+
+  <div class="top">
+    <label>API base</label>
+    <input id="apiBase" type="text" value="http://localhost:3001/api" style="width:260px;">
+    <label>API key</label>
+    <input id="apiKey" type="text" placeholder="x-api-key" style="width:200px;">
+    <label>Target file</label>
+    <select id="fileSelect">
+      <option>questions/math.json</option>
+      <option>questions/english.json</option>
+      <option>questions/science.json</option>
+    </select>
+    <button id="loadBtn">Load</button>
+    <button id="saveBtn">Save to server</button>
+    <button id="downloadBtn" class="ghost">Download</button>
+  </div>
+
+  <div id="container">
+    <div class="panel left">
+      <div style="display:flex; justify-content:space-between; align-items:center;">
+        <div><strong>Questions</strong> <span id="count" class="small muted">(0)</span></div>
+        <div class="controls">
+          <button id="addBtn" class="btn-inline">+ Add</button>
+          <button id="dupBtn" class="btn-inline">Duplicate</button>
+          <button id="delBtn" class="btn-inline danger">Delete</button>
+        </div>
+      </div>
+
+      <input id="filterText" type="text" placeholder="Filter by id / topic / skill" style="width:100%; margin-top:8px; padding:6px; border-radius:6px; border:1px solid #ddd;">
+      <ul class="q-list" id="qList"></ul>
+    </div>
+
+    <div class="panel right">
+      <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+        <div>
+          <div class="muted">Editing question</div>
+          <h3 id="qTitle">—</h3>
+          <div id="idNote" class="small muted"></div>
+        </div>
+        <div class="small muted">
+          <div>Unsaved: <span id="unsavedFlag">No</span></div>
+          <div id="lastSaved" class="small"></div>
+        </div>
+      </div>
+
+      <div style="margin-top:12px;">
+        <div class="split">
+          <div class="col w-40">
+            <label>id</label>
+            <input id="qId" type="text" />
+            <label>subject</label>
+            <input id="qSubject" type="text" />
+            <label>topic</label>
+            <input id="qTopic" type="text" />
+            <label>skill_tag</label>
+            <input id="qSkill" type="text" />
+            <label>type</label>
+            <select id="qType">
+              <option value="mcq">mcq</option>
+              <option value="open">open</option>
+              <option value="table">table</option>
+            </select>
+            <label>image (path)</label>
+            <input id="qImage" type="text" placeholder="questions/media/..." />
+            <div class="preview" id="imgPreview"></div>
+            <input id="imageFile" type="file" accept="image/*">
+            <div class="row">
+              <button id="uploadBtn" class="ghost">Upload Image</button>
+              <button id="clearImage" class="ghost">Clear</button>
+            </div>
+          </div>
+
+          <div class="col w-60">
+            <label>text (stem)</label>
+            <textarea id="qText"></textarea>
+
+            <div id="mcqArea" style="margin-top:8px;">
+              <label>Options (MCQ)</label>
+              <div class="opt-list" id="optList"></div>
+              <button id="addOption" class="btn-inline" style="margin-top:6px;">+ Add option</button>
+            </div>
+
+            <div id="tableArea" style="margin-top:8px; display:none;">
+              <label>Table JSON (headers + rows)</label>
+              <textarea id="qTable" placeholder='{"headers":["A","B"],"rows":[["r1c1","r1c2"]]}'></textarea>
+            </div>
+
+            <label style="margin-top:8px;">answer (for open: accepted answers separated by | ; for mcq: exact option text)</label>
+            <input id="qAnswer" type="text" />
+
+            <label>solution / explanation</label>
+            <textarea id="qSolution"></textarea>
+
+            <div style="margin-top:8px; display:flex; gap:8px;">
+              <button id="saveQuestion" class="success">Save question</button>
+              <button id="revertQuestion" class="ghost">Revert</button>
+              <button id="previewBtn" class="ghost">Preview</button>
+            </div>
+
+            <div class="help">Tip: For open answers you can provide multiple accepted forms separated by `|`, e.g. <code>leaf|leaves</code>.</div>
+          </div>
+        </div>
+
+        <div class="status" id="status">Ready</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Simple authoring UI script
+    let questions = [];
+    let currentIndex = -1;
+    let loadedFilename = document.getElementById('fileSelect').value;
+    let unsaved = false;
+
+    // UI elements
+    const apiBaseEl = document.getElementById('apiBase');
+    const apiKeyEl = document.getElementById('apiKey');
+    const fileSelect = document.getElementById('fileSelect');
+    const loadBtn = document.getElementById('loadBtn');
+    const saveBtn = document.getElementById('saveBtn');
+    const downloadBtn = document.getElementById('downloadBtn');
+    const qListEl = document.getElementById('qList');
+    const countEl = document.getElementById('count');
+    const statusEl = document.getElementById('status');
+    const unsavedFlag = document.getElementById('unsavedFlag');
+    const lastSaved = document.getElementById('lastSaved');
+    const filterText = document.getElementById('filterText');
+
+    // editor fields
+    const qId = document.getElementById('qId');
+    const qSubject = document.getElementById('qSubject');
+    const qTopic = document.getElementById('qTopic');
+    const qSkill = document.getElementById('qSkill');
+    const qType = document.getElementById('qType');
+    const qTextEl = document.getElementById('qText');
+    const optList = document.getElementById('optList');
+    const qAnswer = document.getElementById('qAnswer');
+    const qSolution = document.getElementById('qSolution');
+    const qImage = document.getElementById('qImage');
+    const imgPreview = document.getElementById('imgPreview');
+    const imageFile = document.getElementById('imageFile');
+    const uploadBtn = document.getElementById('uploadBtn');
+    const clearImage = document.getElementById('clearImage');
+    const addOptionBtn = document.getElementById('addOption');
+    const mcqArea = document.getElementById('mcqArea');
+    const tableArea = document.getElementById('tableArea');
+    const qTable = document.getElementById('qTable');
+
+    // left panel controls
+    const addBtn = document.getElementById('addBtn');
+    const dupBtn = document.getElementById('dupBtn');
+    const delBtn = document.getElementById('delBtn');
+
+    const saveQuestionBtn = document.getElementById('saveQuestion');
+    const revertQuestionBtn = document.getElementById('revertQuestion');
+    const previewBtn = document.getElementById('previewBtn');
+
+    function setStatus(txt, ok=true){
+      statusEl.textContent = txt;
+      statusEl.style.borderColor = ok ? '#eee' : '#f5cccc';
+    }
+
+    function setUnsaved(v){
+      unsaved = v;
+      unsavedFlag.textContent = v ? 'Yes' : 'No';
+    }
+
+    function updateCount(){
+      countEl.textContent = '(' + questions.length + ')';
+    }
+
+    function renderList(filter=''){
+      qListEl.innerHTML = '';
+      const f = (filter||'').trim().toLowerCase();
+      questions.forEach((q, i) => {
+        const title = q.id || ('Q' + (i+1));
+        const txt = (q.text || '').replace(/\n/g,' ').slice(0,80);
+        const key = (q.id + ' ' + (q.topic||'') + ' ' + (q.skill_tag||'') + ' ' + txt).toLowerCase();
+        if (f && !key.includes(f)) return;
+        const li = document.createElement('li');
+        if (i === currentIndex) li.classList.add('active');
+        li.dataset.index = i;
+        li.innerHTML = `<div style="flex:1"><div><strong>${title}</strong></div><div class="meta">${q.topic||''} • ${q.skill_tag||''}</div><div class="small">${txt}</div></div>`;
+        li.onclick = () => selectQuestion(i);
+        qListEl.appendChild(li);
+      });
+    }
+
+    function loadFileFromServer(){
+  loadedFilename = fileSelect.value;
+  setStatus('Loading ' + loadedFilename + ' ...');
+  fetch(loadedFilename, {cache:'no-store'}).then(async res=>{
+    if (!res.ok) throw new Error('HTTP '+res.status);
+    const text = await res.text();
+    try {
+      const arr = JSON.parse(text);
+      if (!Array.isArray(arr)) throw new Error('JSON is not an array');
+      questions = arr;
+      // start with no selection so selecting 0 won't trigger an accidental save
+      currentIndex = -1;
+      renderList(filterText.value);
+      updateCount();
+      // select first question if any
+      if (questions.length) selectQuestion(0);
+      setStatus('Loaded ' + loadedFilename + ' (' + questions.length + ' questions).');
+    } catch(err) {
+      setStatus('Parse error: ' + err.message, false);
+    }
+  }).catch(err=>{
+    setStatus('Load failed: ' + err.message, false);
+  });
+}
+
+    // editor <-> model sync
+    function populateEditorFromQuestion(idx){
+      if (idx == null || idx < 0 || !questions[idx]) {
+        // clear
+        qId.value = '';
+        qSubject.value = '';
+        qTopic.value = '';
+        qSkill.value = '';
+        qType.value = 'open';
+        qTextEl.value = '';
+        optList.innerHTML = '';
+        qAnswer.value = '';
+        qSolution.value = '';
+        qImage.value = '';
+        imgPreview.innerHTML = '';
+        qTable.value = '';
+        mcqArea.style.display = 'none';
+        tableArea.style.display = 'none';
+        document.getElementById('qTitle').textContent = '—';
+        document.getElementById('idNote').textContent = '';
+        setUnsaved(false);
+        return;
+      }
+      const q = questions[idx];
+      qId.value = q.id || '';
+      qSubject.value = q.subject || '';
+      qTopic.value = q.topic || '';
+      qSkill.value = q.skill_tag || '';
+      qType.value = q.type || 'open';
+      qTextEl.value = q.text || '';
+      qAnswer.value = q.answer || '';
+      qSolution.value = q.solution || '';
+      qImage.value = q.image || '';
+      qTable.value = (q.table) ? JSON.stringify(q.table) : '';
+      document.getElementById('qTitle').textContent = q.id || ('Q' + (idx+1));
+      document.getElementById('idNote').textContent = (q.type || '') + ' • ' + (q.topic || '') + ' • ' + (q.skill_tag || '');
+
+      // image preview
+      imgPreview.innerHTML = '';
+      if (q.image) {
+        const img = document.createElement('img');
+        img.src = q.image;
+        img.alt = 'image';
+        img.style.maxWidth = '320px';
+        imgPreview.appendChild(img);
+      }
+
+      // MCQ options
+      optList.innerHTML = '';
+      if (q.type === 'mcq' && Array.isArray(q.options)) {
+        q.options.forEach((opt, oi) => {
+          const row = document.createElement('div');
+          row.className = 'opt-row';
+          row.innerHTML = `<input data-idx="${oi}" class="opt-input" value="${escapeHtml(opt)}"/><button class="ghost small" data-del="${oi}">X</button>`;
+          optList.appendChild(row);
+          row.querySelector('button[data-del]').onclick = (e)=>{
+            e.preventDefault();
+            q.options.splice(oi,1);
+            populateEditorFromQuestion(currentIndex);
+            setUnsaved(true);
+            renderList(filterText.value);
+          };
+          row.querySelector('.opt-input').oninput = (e)=>{
+            q.options[oi] = e.target.value;
+            setUnsaved(true);
+          };
+        });
+      } else if (q.type === 'mcq') {
+        // ensure empty options area
+        q.options = q.options || [];
+      }
+
+      // show/hide areas
+      mcqArea.style.display = (q.type === 'mcq') ? 'block' : 'none';
+      tableArea.style.display = (q.type === 'table') ? 'block' : 'none';
+
+      setUnsaved(false);
+    }
+
+    function readEditorToQuestion(idx){
+      if (idx == null || idx < 0) return;
+      const q = questions[idx];
+      q.id = qId.value.trim() || q.id || ('Q_' + Date.now());
+      q.subject = qSubject.value.trim() || q.subject || 'Math';
+      q.topic = qTopic.value.trim() || q.topic || '';
+      q.skill_tag = qSkill.value.trim() || q.skill_tag || '';
+      q.type = qType.value;
+      q.text = qTextEl.value;
+      q.answer = qAnswer.value;
+      q.solution = qSolution.value;
+      q.image = qImage.value.trim() || undefined;
+      if (qType.value === 'mcq') {
+        // collect option inputs
+        const opts = [];
+        optList.querySelectorAll('.opt-input').forEach(inp => {
+          opts.push(inp.value);
+        });
+        q.options = opts;
+      } else {
+        delete q.options;
+      }
+      if (qType.value === 'table') {
+        try {
+          q.table = qTable.value ? JSON.parse(qTable.value) : undefined;
+        } catch(e) {
+          // leave as string until valid
+        }
+      } else {
+        delete q.table;
+      }
+      setUnsaved(true);
+      renderList(filterText.value);
+    }
+
+    function selectQuestion(i){
+  // Only persist editor -> model if we are actually switching away from a valid index
+  if (currentIndex !== -1 && currentIndex !== i) {
+    readEditorToQuestion(currentIndex);
+  }
+  currentIndex = i;
+  renderList(filterText.value);
+  populateEditorFromQuestion(currentIndex);
+}
+
+    // util
+    function escapeHtml(s) { return (s||'').replaceAll('"','&quot;'); }
+
+    // event wiring
+    loadBtn.onclick = () => loadFileFromServer();
+    fileSelect.onchange = () => { loadedFilename = fileSelect.value; };
+
+    // add / duplicate / delete
+    addBtn.onclick = ()=>{
+      const newQ = {
+        id: 'NEW-' + Date.now(),
+        subject: 'Math',
+        topic: '',
+        skill_tag: '',
+        type: 'open',
+        text: '',
+        answer: '',
+        solution: ''
+      };
+      questions.unshift(newQ);
+      currentIndex = 0;
+      updateCount();
+      renderList(filterText.value);
+      selectQuestion(0);
+      setUnsaved(true);
+    };
+
+    dupBtn.onclick = ()=>{
+      if (currentIndex < 0) return;
+      const copy = JSON.parse(JSON.stringify(questions[currentIndex]));
+      copy.id = (copy.id || 'COPY') + '-cp-' + Date.now();
+      questions.splice(currentIndex+1, 0, copy);
+      renderList(filterText.value);
+      updateCount();
+      selectQuestion(currentIndex+1);
+      setUnsaved(true);
+    };
+
+    delBtn.onclick = ()=>{
+      if (currentIndex < 0) return;
+      if (!confirm('Delete this question?')) return;
+      questions.splice(currentIndex,1);
+      currentIndex = Math.max(0, currentIndex-1);
+      renderList(filterText.value);
+      updateCount();
+      selectQuestion(currentIndex);
+      setUnsaved(true);
+    };
+
+    // options
+    addOptionBtn.onclick = ()=>{
+      if (currentIndex < 0) return;
+      const q = questions[currentIndex];
+      q.options = q.options || [];
+      q.options.push('Option ' + (q.options.length+1));
+      populateEditorFromQuestion(currentIndex);
+      setUnsaved(true);
+    };
+
+    // editor change detection
+    [qId,qSubject,qTopic,qSkill,qType,qTextEl,qAnswer,qSolution,qImage,qTable].forEach(el=>{
+      el.addEventListener('input', ()=>{
+        if (currentIndex >= 0) readEditorToQuestion(currentIndex);
+      });
+    });
+
+    // image upload
+    uploadBtn.onclick = async ()=>{
+      if (!imageFile.files.length) { setStatus('Select a file first', false); return; }
+      const base = apiBaseEl.value.replace(/\/$/,'');
+      const key = apiKeyEl.value;
+      const fd = new FormData();
+      fd.append('image', imageFile.files[0]);
+      setStatus('Uploading image ...');
+      try {
+        const res = await fetch(base + '/upload-image', { method:'POST', headers: { 'x-api-key': key }, body: fd });
+        const j = await res.json();
+        if (!res.ok) throw new Error(j.error || JSON.stringify(j));
+        qImage.value = j.path; // set path
+        populateEditorFromQuestion(currentIndex);
+        setStatus('Uploaded: ' + j.path);
+        setUnsaved(true);
+      } catch(err) {
+        setStatus('Upload failed: ' + err.message, false);
+      }
+    };
+
+    clearImage.onclick = ()=>{
+      qImage.value = '';
+      imgPreview.innerHTML = '';
+      if (currentIndex>=0) readEditorToQuestion(currentIndex);
+      setUnsaved(true);
+    };
+
+    // save question locally
+    saveQuestionBtn.onclick = ()=>{
+      if (currentIndex >= 0) {
+        readEditorToQuestion(currentIndex);
+        setStatus('Question saved locally (the file still needs saving to server).');
+      }
+    };
+
+    revertQuestionBtn.onclick = ()=>{
+      if (currentIndex >= 0) {
+        populateEditorFromQuestion(currentIndex);
+        setStatus('Reverted editor to last loaded version of the question.');
+      }
+    };
+
+    previewBtn.onclick = ()=>{
+      if (currentIndex < 0) return;
+      const q = questions[currentIndex];
+      alert('Preview:\n\n' + (q.text || '[no text]') + '\n\nAnswer: ' + (q.answer || '[no answer]'));
+    };
+
+    // save whole file to server
+    saveBtn.onclick = async ()=>{
+      // ensure latest edits are in array
+      if (currentIndex >= 0) readEditorToQuestion(currentIndex);
+      const base = apiBaseEl.value.replace(/\/$/,'');
+      const key = apiKeyEl.value;
+      const filename = fileSelect.value;
+      try {
+        setStatus('Saving ' + filename + ' ...');
+        const res = await fetch(base + '/save-json', {
+          method:'POST',
+          headers: { 'Content-Type': 'application/json', 'x-api-key': key },
+          body: JSON.stringify({ filename, content: questions })
+        });
+        const j = await res.json();
+        if (!res.ok) throw new Error(j.error || JSON.stringify(j));
+        setStatus('Saved to server: ' + j.path);
+        lastSaved.textContent = 'Last saved: ' + new Date().toLocaleString();
+        setUnsaved(false);
+      } catch (err) {
+        setStatus('Save failed: ' + err.message, false);
+      }
+    };
+
+    // download file locally
+    downloadBtn.onclick = ()=>{
+      if (currentIndex >= 0) readEditorToQuestion(currentIndex);
+      const blob = new Blob([JSON.stringify(questions, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = fileSelect.value.split('/').pop() || 'questions.json';
+      a.click();
+      URL.revokeObjectURL(url);
+    };
+
+    // filter
+    filterText.addEventListener('input', ()=> renderList(filterText.value));
+
+    // keyboard shortcuts
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 's' && (e.ctrlKey || e.metaKey)) {
+        e.preventDefault();
+        saveBtn.click();
+      }
+      if (e.key === 'n' && (e.ctrlKey || e.metaKey)) {
+        e.preventDefault();
+        addBtn.click();
+      }
+    });
+
+    // HELP: load default at start if file is present
+    window.addEventListener('load', ()=>{
+      // try to load the default chosen file quietly
+      setTimeout(()=> {
+        loadFileFromServer();
+      }, 200);
+    });
+
+  </script>
+</body>
+</html>
