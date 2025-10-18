@@ -9,16 +9,37 @@
   <title>PSLE Practice</title>
   <link rel="stylesheet" href="style.css" />
   <script>
+    /* Keep SW for offline; okay to comment out during dev */
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('sw.js');
       });
     }
   </script>
+  <style>
+    /* small, non-intrusive tweaks */
+    #authBar { display:flex; gap:.5rem; align-items:center; flex-wrap:wrap; }
+    #authBar .spacer { flex:1 1 auto; }
+    #authStatus { font-size:.9rem; color:#555; }
+    .row { margin: 8px 0; display:flex; align-items:center; gap:8px; }
+    #subjectSelect, #quizLength { max-width: 160px; }
+    #maxInfo { color:#666; }
+    header h1 { margin-bottom: .25rem; }
+    nav button { margin-right: .5rem; }
+    .view { display:none; }
+    .view.active { display:block; }
+  </style>
 </head>
 <body>
   <header>
     <h1>PSLE Quiz</h1>
+    <div id="authBar" class="row">
+      <button id="btnSignIn">Sign in with Google</button>
+      <button id="btnAnon">Continue without account</button>
+      <button id="btnSignOut" style="display:none;">Sign out</button>
+      <span class="spacer"></span>
+      <span id="authStatus">Not signed in</span>
+    </div>
     <nav>
       <button id="btnHome">Home</button>
       <button id="btnStats">Progress</button>
@@ -30,7 +51,7 @@
     <section id="homeView" class="view active">
       <h2>Start a Quiz</h2>
       <div class="row">
-        <label>Subject:</label>
+        <label for="subjectSelect">Subject:</label>
         <select id="subjectSelect">
           <option value="all">All</option>
           <option value="Math">Math</option>
@@ -38,13 +59,18 @@
           <option value="Science">Science</option>
         </select>
       </div>
-<div class="row">
-  <label>Number of Questions:</label>
-  <input id="quizLength" type="number" min="1" max="50" value="10" style="width:80px;">
-  <span id="maxInfo" style="margin-left:10px; color:#666;"></span>
-</div>
+
+      <div class="row">
+        <label for="quizLength">Number of Questions:</label>
+        <input id="quizLength" type="number" min="1" max="50" value="10" />
+        <span id="maxInfo" aria-live="polite"></span>
+      </div>
+
       <button id="startBtn">Start Quiz</button>
-      <p class="help">Tip: Install this as an app: Share → “Add to Home Screen”.</p>
+      <p class="help">
+        Tip: You can use the app without signing in (stored on this device), or sign in to sync progress online later.
+        Install as an app: Share → “Add to Home Screen”.
+      </p>
     </section>
 
     <!-- Quiz -->
@@ -52,14 +78,17 @@
       <div id="qMeta"></div>
       <div id="qText"></div>
       <div id="qOptions"></div>
+
       <div id="qInputWrap" class="row">
         <input id="qInput" placeholder="Type your answer" />
       </div>
+
       <div class="row">
         <button id="checkBtn">Check</button>
         <button id="nextBtn" disabled>Next</button>
       </div>
-      <div id="feedback"></div>
+
+      <div id="feedback" aria-live="polite"></div>
     </section>
 
     <!-- Summary -->
@@ -71,7 +100,12 @@
       <div id="overall"></div>
       <table id="skillTable">
         <thead>
-          <tr><th>Skill</th><th>Correct</th><th>Total</th><th>Accuracy</th></tr>
+          <tr>
+            <th>Skill</th>
+            <th>Correct</th>
+            <th>Total</th>
+            <th>Accuracy</th>
+          </tr>
         </thead>
         <tbody></tbody>
       </table>
@@ -83,7 +117,68 @@
     <small>PSLE Practice MVP • Works offline • iPhone/iPad friendly</small>
   </footer>
 
+  <!-- Supabase (optional auth + cloud saves). Safe to keep; app still works without sign-in -->
+  <script src="https://unpkg.com/@supabase/supabase-js@2.45.4/dist/umd/supabase.js" crossorigin="anonymous"></script>
+  <script>
+    // Your Supabase project — anon key is safe client-side
+    window.SUPABASE_URL = "https://zkgzmvhysjdtmalcujno.supabase.co";
+    window.SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InprZ3ptdmh5c2pkdG1hbGN1am5vIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjA2MDg3NjQsImV4cCI6MjA3NjE4NDc2NH0.fk0RkYSCVb_3FKiZWLR7Z1nrz4oEwrwwkizVEEC1Rvg";
 
-<script src="app.js"></script>
+    // Lightweight UI helpers so the page shows status even if app.js hasn’t wired auth yet.
+    (function primeAuthBar(){
+      try {
+        const { createClient } = window.supabase;
+        if (!createClient) return;
+        const supabase = createClient(window.SUPABASE_URL, window.SUPABASE_ANON_KEY);
+
+        const btnSignIn = document.getElementById('btnSignIn');
+        const btnAnon   = document.getElementById('btnAnon');
+        const btnSignOut= document.getElementById('btnSignOut');
+        const statusEl  = document.getElementById('authStatus');
+
+        function setStatus(text, signedIn){
+          statusEl.textContent = text;
+          btnSignOut.style.display = signedIn ? 'inline-block' : 'none';
+          btnSignIn.style.display  = signedIn ? 'none' : 'inline-block';
+        }
+
+        supabase.auth.getUser().then(({ data }) => {
+          if (data?.user) setStatus(`Signed in: ${data.user.email || data.user.id}`, true);
+        });
+
+        btnSignIn?.addEventListener('click', async () => {
+          const { error } = await supabase.auth.signInWithOAuth({
+            provider: 'google',
+            options: { redirectTo: window.location.origin }
+          });
+          if (error) alert('Sign-in failed: ' + error.message);
+        });
+
+        btnAnon?.addEventListener('click', () => {
+          setStatus('Not signed in (using device storage)', false);
+          // No-op; app.js will continue using localStorage
+        });
+
+        btnSignOut?.addEventListener('click', async () => {
+          await supabase.auth.signOut();
+          setStatus('Signed out', false);
+        });
+
+        // Listen to changes (another tab, etc.)
+        supabase.auth.onAuthStateChange((_event, session) => {
+          if (session?.user) {
+            setStatus(`Signed in: ${session.user.email || session.user.id}`, true);
+          } else {
+            setStatus('Not signed in', false);
+          }
+        });
+      } catch(e) {
+        /* Supabase not available or blocked; silently continue. */
+      }
+    })();
+  </script>
+
+  <!-- Your app logic (works fine without sign-in; uses localStorage by default) -->
+  <script src="app.js"></script>
 </body>
 </html>

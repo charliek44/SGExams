@@ -13,7 +13,8 @@
       "have"
     ],
     "answer": "is",
-    "solution": "Nearest subject 'coach' (singular) → 'is'."
+    "solution": "[Neither... nor... → proximity rule] Nearest subject 'coach' (singular) → 'is'. 'This year' → present tense → 'is'.",
+    "comments": "Reviewed but for english could be any level"
   },
   {
     "id": "E-P6-GRAM-002-MCQ",
@@ -29,7 +30,8 @@
       "starts"
     ],
     "answer": "had started",
-    "solution": "Past perfect shows an action completed before another past action."
+    "solution": "'arrived' → action in the past. 'the film starting' → action further in the past. 'the film starting' should be past perfect tense → had started.",
+    "comments": "Reviewed but for english could be any level"
   },
   {
     "id": "E-P6-GRAM-003-MCQ",
@@ -45,7 +47,8 @@
       "she"
     ],
     "answer": "her",
-    "solution": "Pronoun agrees with the nearer subject 'Siti' → 'her'."
+    "solution": "Pronoun agrees with the nearer subject 'Siti' → 'her'. (neither... nor... → proximity rule)",
+    "comments": "Reviewed but for english could be any level"
   },
   {
     "id": "E-P6-GRAM-004-MCQ",
@@ -61,7 +64,8 @@
       "a, an"
     ],
     "answer": "an, an",
-    "solution": "Vowel sounds: 'honest' /ˈɒn-/ and 'unusual' /ʌn-/. Use 'an'."
+    "solution": "Vowel sounds: 'honest' /ˈɒn-/ and 'unusual' /ʌn-/. Use 'an'.",
+    "comments": "Reviewed but for english could be any level"
   },
   {
     "id": "E-P6-GRAM-005-MCQ",
@@ -77,7 +81,8 @@
       "upon of"
     ],
     "answer": "onto",
-    "solution": "Movement to a surface → 'onto'."
+    "solution": "Movement to a surface → 'onto'.",
+    "comments": "Reviewed but for english could be any level"
   },
   {
     "id": "E-P6-GRAM-006-MCQ",
@@ -93,7 +98,8 @@
       "beautifuller"
     ],
     "answer": "more beautifully",
-    "solution": "Comparative of adverb with 'more'."
+    "solution": "Comparative of adverb with 'more'.",
+    "comments": "Reviewed but for english could be any level"
   },
   {
     "id": "E-P6-GRAM-007-MCQ",
@@ -109,7 +115,8 @@
       "because"
     ],
     "answer": "if",
-    "solution": "Condition → 'if'."
+    "solution": "Condition → 'if'.(We will not go hiking if it rains.)",
+    "comments": "Reviewed but for english could be any level"
   },
   {
     "id": "E-P6-GRAM-008-MCQ",
@@ -125,7 +132,8 @@
       "would"
     ],
     "answer": "must",
-    "solution": "Obligation → 'must'."
+    "solution": "Obligation → 'must'.",
+    "comments": "Reviewed but for english could be any level"
   },
   {
     "id": "E-P6-GRAM-009-MCQ",
@@ -138,10 +146,11 @@
       "difficult",
       "more difficult",
       "most difficult",
-      "difficultest"
+      "difficulter"
     ],
     "answer": "more difficult",
-    "solution": "Comparative form for two items → 'more difficult'."
+    "solution": "Comparative form for two items → 'more difficult'.",
+    "comments": "Reviewed but for english could be any level"
   },
   {
     "id": "E-P6-GRAM-010-MCQ",
@@ -157,7 +166,8 @@
       "whose"
     ],
     "answer": "who",
-    "solution": "Relative pronoun for people (subject) → 'who'."
+    "solution": "Relative pronoun for people (subject) → 'who'. ('who' is usually between a noun and verb)",
+    "comments": "Reviewed but for english could be any level and also need to check explanation because i'm not sure"
   },
   {
     "id": "E-P6-GRAM-011-OPEN",
@@ -167,7 +177,8 @@
     "type": "open",
     "text": "Complete the tag: \"You have finished the assignment, __?\"",
     "answer": "haven't you",
-    "solution": "Positive statement → negative tag 'haven't you'."
+    "solution": "Positive statement → negative tag 'haven't you'. (if question has 'have' at the beginning, ending should have 'haven't [have not]')",
+    "comments": "Reviewed but for english could be any level and could also check explanation again because i heard the part i added from my friend"
   },
   {
     "id": "E-P6-GRAM-012-OPEN",
@@ -177,7 +188,8 @@
     "type": "open",
     "text": "Fill in the blank: \"The news __ shocking.\" (write the verb in full)",
     "answer": "is",
-    "solution": "'News' is uncountable singular → 'is'."
+    "solution": "'News' is uncountable so the verb should be singular → 'is'.",
+    "comments": "Reviewed but for english could be any level"
   },
   {
     "id": "E-P6-GRAM-013-MCQ",
@@ -193,7 +205,8 @@
       "had read"
     ],
     "answer": "have been reading",
-    "solution": "Action started in past and continuing → present perfect continuous."
+    "solution": "Action started in past and continuing → present perfect continuous → have been reading. (keyword → since) ",
+    "comments": "Reviewed but for english could be any level"
   },
   {
     "id": "E-P6-GRAM-014-MCQ",
@@ -203,13 +216,14 @@
     "type": "mcq",
     "text": "Change to passive: \"They built the bridge in 2010.\"",
     "options": [
-      "The bridge was built in 2010.",
-      "The bridge is built in 2010.",
-      "The bridge has built in 2010.",
-      "The bridge were built in 2010."
+      "The bridge was built by them in 2010.",
+      "The bridge is built by them in 2010.",
+      "The bridge has been built by them in 2010.",
+      "The bridge were built by them in 2010."
     ],
-    "answer": "The bridge was built in 2010.",
-    "solution": "Past simple passive → 'was built'."
+    "answer": "The bridge was built by them in 2010.",
+    "solution": "Past simple passive → 'was built'.",
+    "comments": "Reviewed but for english could be any level and the topic for this question should be Synthesis (alsoo look at the answer because i changed it a bit) and i think the question should be open ended"
   },
   {
     "id": "E-P6-GRAM-015-MCQ",
@@ -225,7 +239,8 @@
       "would have helped"
     ],
     "answer": "would have helped",
-    "solution": "Third conditional for past unreal situations."
+    "solution": "Third conditional for past unreal situations.",
+    "comments": "Reviewed but for english could be any level and also i really don't understand the explanation but also can't write one myself so i dunno"
   },
   {
     "id": "E-P6-GRAM-016-OPEN",
@@ -235,7 +250,8 @@
     "type": "open",
     "text": "Fill in one word: \"He is afraid __ spiders.\"",
     "answer": "of",
-    "solution": "Fixed phrase: 'afraid of'."
+    "solution": "Fixed phrase: 'afraid of'.",
+    "comments": "Reviewed but for english could be any level"
   },
   {
     "id": "E-P6-GRAM-017-MCQ",
@@ -245,13 +261,14 @@
     "type": "mcq",
     "text": "Direct → Reported: She said, \"I am tired.\"",
     "options": [
-      "She said she is tired.",
-      "She said she was tired.",
-      "She says she was tired.",
+      "She said that she is tired.",
+      "She said that she was tired.",
+      "She says that she was tired.",
       "She said that I was tired."
     ],
     "answer": "She said she was tired.",
-    "solution": "Backshift to past in reported speech."
+    "solution": "Backshift to past in reported speech.",
+    "comments": "Reviewed but for english could be any level and also this is kind of an easy question so maybe should be open ended and also it could have some other factors (like yesterday or maybe before going to bed?) and also should be sythesis"
   },
   {
     "id": "E-P6-GRAM-018-MCQ",
@@ -267,7 +284,8 @@
       "Left"
     ],
     "answer": "Leaving",
-    "solution": "Gerund as subject."
+    "solution": "Gerund as subject.",
+    "comments": "Reviewed but for english could be any level (what is a gerund??)"
   },
   {
     "id": "E-P6-GRAM-019-OPEN",
@@ -277,7 +295,8 @@
     "type": "open",
     "text": "Fill one word: \"She studied hard __ she could win the scholarship.\"",
     "answer": "so",
-    "solution": "Result clause → 'so'."
+    "solution": "Result clause → 'so'.",
+    "comments": "Reviewed but for english could be any level but still seems a bit easy"
   },
   {
     "id": "E-P6-GRAM-020-MCQ",
@@ -293,7 +312,8 @@
       "whose"
     ],
     "answer": "whose",
-    "solution": "'Whose' shows possession."
+    "solution": "'Whose' shows possession. (whose can also be used for objects)",
+    "comments": "Reviewed but for english could be any level"
   },
   {
     "id": "E-P6-VOCAB-001-MCQ",
@@ -301,7 +321,7 @@
     "topic": "Vocabulary & Word Use",
     "skill_tag": "ENG.VOCAB.CONTEXT",
     "type": "mcq",
-    "text": "Choose the closest meaning: \"The hikers were exhausted after the arduous climb.\"",
+    "text": "Choose the closest meaning to arduous: \"The hikers were exhausted after the arduous climb.\"",
     "options": [
       "short",
       "easy",
@@ -309,7 +329,8 @@
       "pleasant"
     ],
     "answer": "difficult",
-    "solution": "Arduous = difficult."
+    "solution": "Arduous = difficult.",
+    "comments": "Reviewed but for english could be any level"
   },
   {
     "id": "E-P6-VOCAB-002-MCQ",
@@ -325,7 +346,8 @@
       "available"
     ],
     "answer": "rare",
-    "solution": "Scarce ≈ rare."
+    "solution": "Scarce ≈ rare.",
+    "comments": "Reviewed but for english could be any level"
   },
   {
     "id": "E-P6-VOCAB-003-MCQ",
@@ -341,7 +363,8 @@
       "honour"
     ],
     "answer": "despise",
-    "solution": "Opposite meaning."
+    "solution": "admire = appreiate, despise = detest. 'Admire' and 'Despise' are the opposite.",
+    "comments": "Reviewed but for english could be any level and actually the explanation is not saying much but anyway"
   },
   {
     "id": "E-P6-VOCAB-004-OPEN",
@@ -349,9 +372,10 @@
     "topic": "Vocabulary & Word Use",
     "skill_tag": "ENG.VOCAB.PHRASAL",
     "type": "open",
-    "text": "Fill one phrasal verb: \"Please __ the lights before you leave.\" (turn off / put out)",
+    "text": "Fill one phrasal verb: \"Please __ the lights before you leave.\"",
     "answer": "turn off|put out",
-    "solution": "Both acceptable in context."
+    "solution": "Both acceptable in context.",
+    "comments": "Reviewed but for english could be any level and the explanation is really bad"
   },
   {
     "id": "E-P6-VOCAB-005-MCQ",
@@ -367,7 +391,8 @@
       "careless"
     ],
     "answer": "clear",
-    "solution": "Context collocation."
+    "solution": "Context collocation.",
+    "comments": "Reviewed but for english could be any level (perhaps the explanation could use simpler words?)"
   },
   {
     "id": "E-P6-VOCAB-006-MCQ",
@@ -383,7 +408,8 @@
       "win easily"
     ],
     "answer": "start a conversation",
-    "solution": "Common idiom meaning."
+    "solution": "Common idiom meaning.",
+    "comments": "Reviewed but for english could be any level and very bad explanation"
   },
   {
     "id": "E-P6-VOCAB-007-OPEN",
@@ -393,7 +419,8 @@
     "type": "open",
     "text": "Fill one word: \"She made a __ decision.\" (strong/careful/quick?) Choose the best collocation.",
     "answer": "quick",
-    "solution": "Collocation: 'quick decision'."
+    "solution": "Collocation: 'quick decision'.",
+    "comments": "Reviewed but for english could be any level and why don't it just be mcq and also i feel like careful could also be an answer"
   },
   {
     "id": "E-P6-VOCAB-008-MCQ",
@@ -409,7 +436,8 @@
       "time is precious"
     ],
     "answer": "fixing small problems early prevents bigger ones",
-    "solution": "Meaning of the proverb."
+    "solution": "Meaning of the proverb.",
+    "comments": "Reviewed but for english could be any level and bad explanation and the answer is also kinda obvious actually"
   },
   {
     "id": "E-P6-VOCAB-009-MCQ",
@@ -425,7 +453,8 @@
       "sleepy"
     ],
     "answer": "ecstatic",
-    "solution": "Positive emotion matches cheering."
+    "solution": "Positive emotion matches cheering.",
+    "comments": "Reviewed but for english could be any level but a bit easy"
   },
   {
     "id": "E-P6-VOCAB-010-OPEN",
@@ -435,7 +464,8 @@
     "type": "open",
     "text": "Give one synonym for \"assist\".",
     "answer": "help|aid|support",
-    "solution": "Common synonyms."
+    "solution": "Common synonyms.",
+    "comments": "Reviewed but for english could be any level"
   },
   {
     "id": "E-P6-CLOZE-001-MCQ",
@@ -451,7 +481,8 @@
       "by"
     ],
     "answer": "since",
-    "solution": "Point in time → 'since'."
+    "solution": "Point in time → 'since'.",
+    "comments": "Reviewed but for english could be any level but could there be a better explanation?"
   },
   {
     "id": "E-P6-CLOZE-002-MCQ",
@@ -467,7 +498,8 @@
       "has been"
     ],
     "answer": "are",
-    "solution": "Relative clause agrees with 'students' (plural)."
+    "solution": "Relative clause agrees with 'students' (plural) not 'him'.",
+    "comments": "Reviewed but for english could be any level"
   },
   {
     "id": "E-P6-CLOZE-003-MCQ",
@@ -483,7 +515,8 @@
       "most deliciously"
     ],
     "answer": "delicious",
-    "solution": "Linking verb takes adjective."
+    "solution": "Linking verb takes adjective.",
+    "comments": "Reviewed but for english could be any level(what linking verb?)"
   },
   {
     "id": "E-P6-CLOZE-004-MCQ",
@@ -499,7 +532,8 @@
       "obscure"
     ],
     "answer": "obey",
-    "solution": "Context meaning."
+    "solution": "Context meaning. (oblige by the rules, obscure = hide, object = disobey)",
+    "comments": "Reviewed"
   },
   {
     "id": "E-P6-CLOZE-005-MCQ",
@@ -515,7 +549,8 @@
       "breaths"
     ],
     "answer": "breathtaking",
-    "solution": "Correct adjective form."
+    "solution": "Correct adjective form.",
+    "comments": "Reviewed"
   },
   {
     "id": "E-P6-CLOZE-006-OPEN",
@@ -525,7 +560,8 @@
     "type": "open",
     "text": "Fill one word: \"The vase was broken __ the naughty cat.\"",
     "answer": "by",
-    "solution": "Passive agent → 'by'."
+    "solution": "Passive agent → 'by'.",
+    "comments": "Reviewed(what is a passive agent??)"
   },
   {
     "id": "E-P6-CLOZE-007-OPEN",
@@ -535,7 +571,8 @@
     "type": "open",
     "text": "Fill one word: \"Please __ your seat belts before take-off.\"",
     "answer": "fasten",
-    "solution": "Collocation: 'fasten seat belts'."
+    "solution": "Collocation: 'fasten seat belts'.",
+    "comments": "Reviewed"
   },
   {
     "id": "E-P6-CLOZE-008-MCQ",
@@ -543,15 +580,16 @@
     "topic": "Grammar Cloze",
     "skill_tag": "ENG.CLOZE.GRAM.CONNECTOR",
     "type": "mcq",
-    "text": "Not only __ the team play well, but they also won.",
+    "text": "Not only __ play well, but they also won.",
     "options": [
-      "they did",
-      "did they",
-      "they do",
-      "do they"
+      "the team did",
+      "did the team",
+      "the team does",
+      "do the team"
     ],
-    "answer": "did they",
-    "solution": "Inversion after 'Not only'."
+    "answer": "did the team",
+    "solution": "Inversion after 'Not only'.'won' → past tense.",
+    "comments": "Reviewed"
   },
   {
     "id": "E-P6-CLOZE-009-MCQ",
@@ -567,7 +605,8 @@
       "had"
     ],
     "answer": "has",
-    "solution": "'Much' (uncountable) → singular verb."
+    "solution": "'Much' (uncountable) → singular verb.",
+    "comments": "Reviewed"
   },
   {
     "id": "E-P6-CLOZE-010-MCQ",
@@ -583,7 +622,8 @@
       "precision"
     ],
     "answer": "persistence",
-    "solution": "Context meaning."
+    "solution": "Context meaning. (persistence = perseverance, persuation = convincing, pervention = obstruction, precision = accuracy)",
+    "comments": "Reviewed"
   },
   {
     "id": "E-P6-PUNC-001-MCQ",
@@ -599,7 +639,8 @@
       "Before we eat let, us wash our hands."
     ],
     "answer": "Before we eat, let us wash our hands.",
-    "solution": "Comma after introductory clause."
+    "solution": "Comma after introductory clause.",
+    "comments": "Reviewed but this is so easy (could be maybe p1?)"
   },
   {
     "id": "E-P6-PUNC-002-MCQ",
